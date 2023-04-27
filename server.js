@@ -17,4 +17,4 @@ var server = Server.init({
 	staticServe: opt.staticserve
 });
 
-Server.run(server, opt.port || process.env.PORT || 5001);
+Server.run(server, opt.port || process.env.PORT || 8080);

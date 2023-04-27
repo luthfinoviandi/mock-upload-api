@@ -8,8 +8,8 @@ var cert = fs.readFileSync('cert.pem');
 var express = Express();
 
 var server = https.createServer({key: key, cert: cert}, express);
-server.listen(8080, () => {
-	console.log('listening on 8080')
+server.listen(3001, () => {
+	console.log('listening on 3001')
 });
 module.exports = {
 	
