@@ -1,0 +1,448 @@
+{
+	"status": {
+		"code": "0",
+		"message": "success"
+	},
+	"existingClaimFile": "Yes",
+	"validPolicyCoverage": "No",
+	"claimNo": "MT/34227880",
+	"claimCaseSOABOs": [{
+		"extField10": "SHD450849A",
+		"accidentType": "Fire",
+		"accidentPlace": "Location A",
+		"countryOfAccident": "Singapore",
+		"claimNo": "MT/34227880",
+		"claimInfoSOABO": {
+			"seqNo": "001",
+			"claimantName": "Francisco Kutch",
+			"claimantNric": "S406197",
+			"claimantType": "Pedestrian",
+			"tpDriverInjured": "Yes",
+			"tpInjuryType": "5",
+			"tpVehicleNo": "SG716270A",
+			"privateHireTpVehicle": "1",
+			"tpDriver": "Mr.",
+			"tpDriverNric": "S226332A",
+			"tpWorkshop": "Green LLC",
+			"tpWorkshopAddress": "733 Sister Trail",
+			"tpLawyer": "Gleason - Upton",
+			"tpLawyerAddress": "60956 Kub Track",
+			"tpClinic": "Schultz, Marks and Schiller",
+			"tpClinicAddress": "843 Wilderman Square",
+			"tpInsurer": "Botsford, Marquardt and Purdy",
+			"tpSurveyor": "Barton, Erdman and Rutherford",
+			"tpClaimSource": "Lawyer",
+			"giaReport": "Tasty Frozen Bacon",
+			"tpContactName": "Rufus Schulist III",
+			"tpContactNRIC": "S144883A",
+			"tpContactAddress": "64994 Gerhold Summit",
+			"tpContactAddressPostCode": "",
+			"tpContactAddressUnitNo": "",
+			"akReferenceNo": "993",
+			"claimAmount": "974"
+		}
+	}],
+	"policySOABOs": [{
+		"vehicleNo": "SG749028",
+		"policyNo": "P659781",
+		"certificateNo": "6516",
+		"policyHolderName": "Holly Lind",
+		"policyHolderNric": "S176250A",
+		"productCode": "ppr",
+		"coverType": "drivo CLASSIC"
+	}],
+	"nerData": {
+		"data": {
+			"email": {
+				"type": "email",
+				"source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+			},
+			"pdf": {
+				"type": "textract",
+				"source": "SGD8273K gia report.pdf",
+				"texts": [
+					"/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+					"/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+				]
+			}
+		},
+		"lob": {
+			"tpVehicleNo": "SGD8273K",
+			"vehicleNo": "SGD8021K"
+		},
+		"entities": {
+			"tpVehicleNo": {
+				"label": "VEHICLE_NUMBER_3RD_PARTY",
+				"value": "SG716270A",
+				"beginOffset": 11,
+				"score": 0.8577985763549805,
+				"endOffset": 16,
+				"data": "email",
+				"alts": [{
+					"value": "SG716278V",
+					"score": 0.61231534536,
+					"beginOffset": 1572,
+					"endOffset": 1580,
+					"data": "pdf",
+					"position": {
+						"pageNo": 1,
+						"x": 390,
+						"y": 490,
+						"width": 80,
+						"height": 22
+					}
+				}]
+			},
+			"oiVehicleNo": {
+				"label": "VEHICLE_NUMBER_OWN_INSURED",
+				"value": "SG749028",
+				"score": 0.72109809123,
+				"beginOffset": 13,
+				"endOffset": 21,
+				"data": "email",
+				"alts": [{
+					"value": "SG749020",
+					"score": 0.657123,
+					"beginOffset": 1572,
+					"endOffset": 1580,
+					"data": "email"
+				}]
+			},
+			"claimantId": {
+				"label": "ID_CLAIMANT",
+				"value": "SXXXX319C",
+				"score": 0.9630323648452759,
+				"beginOffset": 8,
+				"endOffset": 17,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 390,
+					"y": 600,
+					"width": 80,
+					"height": 22
+				},
+				"alts": [{
+					"value": "SXXXX464E",
+					"score": 0.577985763549805,
+					"beginOffset": 1572,
+					"endOffset": 1580,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 1045,
+						"width": 80,
+						"height": 22
+					}
+				}]
+			},
+			"accidentTime": {
+				"label": "TIME_OF_ACCIDENT",
+				"value": "18:20:00",
+				"score": 0.7200942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "18:30:00",
+					"score": 0.577985763549805,
+					"beginOffset": 1572,
+					"endOffset": 1580,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 1045,
+						"width": 80,
+						"height": 22
+					}
+				}]
+			},
+			"accidentDate": {
+				"label": "DATE_OF_ACCIDENT",
+				"value": "06/15/2022",
+				"score": 0.9200942635536195,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				}
+			},
+			"accidentType": {
+				"label": "TYPE_OF_ACCIDENT",
+				"value": "Chain Collision",
+				"score": 0.9800942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+						"value": "Collided into Property",
+						"score": 0.577985763549805,
+						"beginOffset": 1572,
+						"endOffset": 1580,
+						"data": "pdf",
+						"position": {
+							"pageNo": 2,
+							"x": 390,
+							"y": 1045,
+							"width": 80,
+							"height": 22
+						}
+					},
+					{
+						"value": "Flood",
+						"score": 0.377985763549805,
+						"beginOffset": 1572,
+						"endOffset": 1580,
+						"data": "pdf",
+						"position": {
+							"pageNo": 2,
+							"x": 390,
+							"y": 1045,
+							"width": 80,
+							"height": 22
+						}
+					}
+				]
+			},
+			"accidentLoc": {
+				"label": "LOCATION_OF_ACCIDENT",
+				"value": "Location A",
+				"score": 0.9800942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+						"value": "Location B",
+						"score": 0.577985763549805,
+						"beginOffset": 1572,
+						"endOffset": 1580,
+						"data": "pdf",
+						"position": {
+							"pageNo": 2,
+							"x": 390,
+							"y": 1045,
+							"width": 80,
+							"height": 22
+						}
+					},
+					{
+						"value": "Location C",
+						"score": 0.377985763549805,
+						"beginOffset": 1572,
+						"endOffset": 1580,
+						"data": "pdf",
+						"position": {
+							"pageNo": 2,
+							"x": 390,
+							"y": 1045,
+							"width": 80,
+							"height": 22
+						}
+					}
+				]
+			},
+			"accidentCountry": {
+				"label": "COUNTRY_OF_ACCIDENT",
+				"value": "Singapore",
+				"score": 0.9800942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "Outside Singapore",
+					"score": 0.46465858817100525,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			},
+			"tpLawyer": {
+				"label": "THIRD_PARTY_LAWYER",
+				"value": "Turner Group",
+				"score": 0.8700942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "Newbold Corporation",
+					"score": 0.46465858817100525,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			},
+			"contactName": {
+				"label": "CONTACT_NAME",
+				"value": "Tam Ríoghán",
+				"score": 0.8700942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "Tom Ríoghán",
+					"score": 0.7646585881710053,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			},
+			"contactNRIC": {
+				"label": "CONTACT_NRIC",
+				"value": "S2105096",
+				"score": 0.9700942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "S2105098",
+					"score": 0.7646585881710053,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			},
+			"contactAddr": {
+				"label": "CONTACT_ADDRESS",
+				"value": "75 Bras Basah Road, NTUC Income Centre, Singapore 999999",
+				"score": 0.9700942635536194,
+				"beginOffset": 1318,
+				"endOffset": 1323,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 460,
+					"y": 360,
+					"width": 36,
+					"height": 22
+				},
+				"alts": [{
+					"value": "39 Ubi Road 1 #02-00 WORLD PUBLICATIONS BUILDING",
+					"score": 0.26465858817100524,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			},
+			"senderEmail": {
+				"label": "EMAIL_SENDER",
+				"value": "wanteng@hotmail.com",
+				"score": 0.4794045090675354,
+				"beginOffset": 1699,
+				"endOffset": 1718,
+				"data": "pdf",
+				"position": {
+					"pageNo": 1,
+					"x": 390,
+					"y": 613,
+					"width": 145,
+					"height": 22
+				},
+				"alts": [{
+					"value": "wanteng@hotmail.com",
+					"score": 0.46465858817100525,
+					"beginOffset": 228,
+					"endOffset": 247,
+					"data": "pdf",
+					"position": {
+						"pageNo": 2,
+						"x": 390,
+						"y": 155,
+						"width": 145,
+						"height": 22
+					}
+				}]
+			}
+		}
+	}
+}

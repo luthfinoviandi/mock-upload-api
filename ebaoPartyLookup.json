@@ -1,0 +1,41 @@
+[
+   {
+    "partyRole": "21",
+    "partyName": "Party 1",
+    "idNum": "S2105096",
+    "partyCode": "CUST00002095",
+    "address1": "75 Bras Basah Road ",
+    "address2": "NTUC Income Centre",
+    "address3": "Address 3",
+    "address4": "Singapore",
+    "postCode": "999999",
+    "unitNo": "11"
+   },
+   {
+    "partyRole": "21",
+    "partyName": "Party 2",
+    "idNum": "S2105892",
+    "partyCode": "CUST00002075",
+    "address1": "111 North Bridge R",
+    "address2": "Road #27-01",
+    "address3": "Peninsula Plaza"
+   },
+   {
+    "partyRole": "21",
+    "partyName": "Party 1 & Party 3",
+    "idNum": "S2105887",
+    "partyCode": "CUST00002080",
+    "address1": "11 South Bridge",
+    "address2": "Road #27-01",
+    "address3": "Tampines"
+   },
+   {
+    "partyRole": "21",
+    "partyName": "ARASAN LAW CHAMBERS",
+    "idNum": "53229182D",
+    "partyCode": "CUST00002075",
+    "address1": "111 North Bridge R",
+    "address2": "Road #27-01",
+    "address3": "Peninsula Plaza"
+   }
+]

@@ -1,0 +1,1378 @@
+{
+	"statusCode": 200,
+	"RequestID": "123456",
+	"AWSRegion": "us-east-1",
+	"BucketName": "baem-dev-ai-output",
+	"TextractResults": "123456/awsout/text/",
+	"ComprehendJobOutDir": "123456/awsout/detect/jobs/",
+	"NER-ResponseFiles": [
+		[
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-1.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-2.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-3.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-4.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-5.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-6.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-7.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-8.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-7eec7c95d974ad95cbc8fe4ae18b1d12/output/decomp/comprehend-output-9.xout"
+		],
+		[
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-1.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-2.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-3.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-4.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-5.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-6.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-7.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-8.xout",
+			"123456/awsout/detect/jobs/031070752022-NER-1deb6bd0648bf1f3a2cd1636c9deea66/output/decomp/comprehend-output-9.xout"
+		]
+	],
+	"CLASSIFICATION-ResponseFiles": [
+		[
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-1.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-2.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-3.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-4.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-5.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-6.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-7.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-8.xout",
+			"123456/awsout/detect/jobs/031070752022-CLN-eb3e5427a89fe0dfd60ba8f854f4d2eb/output/decomp/comprehend-output-9.xout"
+		]
+	],
+	"NER-Response": [
+		{
+			"ADDRESS_CLINIC_3RD_PARTY": [
+				{
+					"BeginOffset": 45,
+					"EndOffset": 52,
+					"Score": 0.7971078139634389,
+					"Text": "Medical",
+					"Type": "ADDRESS_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 95,
+					"EndOffset": 112,
+					"Score": 0.6507040071150105,
+					"Text": "Toa Payoh Central",
+					"Type": "ADDRESS_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				}
+			],
+			"ADDRESS_DRIVER_OWN_INSURED": [
+				{
+					"BeginOffset": 114,
+					"EndOffset": 146,
+					"Score": 0.9338069704205183,
+					"Text": "10 Ubi Avenue 3 SINGAPORE 408865",
+					"Type": "ADDRESS_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 344,
+					"EndOffset": 349,
+					"Score": 0.8587424080174294,
+					"Text": "BATOK",
+					"Type": "ADDRESS_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 231,
+					"EndOffset": 244,
+					"Score": 0.817228875615189,
+					"Text": "Bridge Road\n#",
+					"Type": "ADDRESS_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 66,
+					"EndOffset": 72,
+					"Score": 0.7370749532632268,
+					"Text": "MONTHS",
+					"Type": "ADDRESS_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-7-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-7-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 7
+				}
+			],
+			"ADDRESS_LAWYER_3RD_PARTY": [
+				{
+					"BeginOffset": 83,
+					"EndOffset": 156,
+					"Score": 0.9230425273762208,
+					"Text": "No. 53170395X\n175 North Bridge Road #13-72 Central Point Singapore 038175",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 83,
+					"EndOffset": 156,
+					"Score": 0.9230425273762208,
+					"Text": "No. 53170395X\n175 North Bridge Road #13-72 Central Point Singapore 038175",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 13,
+					"EndOffset": 43,
+					"Score": 0.904530003597455,
+					"Text": "/ VICOM LTD (VAC) - Kakl Bukit",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 0,
+					"EndOffset": 33,
+					"Score": 0.882526723902932,
+					"Text": "UNIHEALTH MEDICAL PRIVATE LIMITED",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 23,
+					"EndOffset": 33,
+					"Score": 0.8546177971980408,
+					"Text": "(TOA PAYOH",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 16,
+					"EndOffset": 34,
+					"Score": 0.7820993336741265,
+					"Text": "CLINIC (TOA PAYOH)",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 97,
+					"EndOffset": 149,
+					"Score": 0.765103242714595,
+					"Text": "175 North Bridge Road #13-72 Central Point Singapore",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				},
+				{
+					"BeginOffset": 61,
+					"EndOffset": 68,
+					"Score": 0.759969745666569,
+					"Text": "#01-216",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 66,
+					"EndOffset": 75,
+					"Score": 0.7074827460219871,
+					"Text": "SINGAPORE",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 123,
+					"EndOffset": 132,
+					"Score": 0.6570274234297702,
+					"Text": "Singapore",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 42,
+					"EndOffset": 45,
+					"Score": 0.6331227964325902,
+					"Text": "Toa",
+					"Type": "ADDRESS_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				}
+			],
+			"ADDRESS_WORKSHOP_3RD_PARTY": [
+				{
+					"BeginOffset": 133,
+					"EndOffset": 139,
+					"Score": 0.9888998496190491,
+					"Text": "310178",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 0,
+					"EndOffset": 22,
+					"Score": 0.9665865309179261,
+					"Text": "UNIHEALTH 24-HR CLINIC",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 2284,
+					"EndOffset": 2357,
+					"Score": 0.9428903866928946,
+					"Text": "Blk 481 Woodlands Street 13\n(WITHOUT ENCLOSURES)\n#03-934\nSingapore 720481",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				},
+				{
+					"BeginOffset": 58,
+					"EndOffset": 65,
+					"Score": 0.867833432898149,
+					"Text": "01-218,",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 34,
+					"EndOffset": 41,
+					"Score": 0.8630140072223766,
+					"Text": "Bik 178",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 115,
+					"EndOffset": 122,
+					"Score": 0.8579788046579823,
+					"Text": "01-218,",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 35,
+					"EndOffset": 42,
+					"Score": 0.8406598222017042,
+					"Text": "178 TOA",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 87,
+					"EndOffset": 94,
+					"Score": 0.8017217348772787,
+					"Text": "Blk 178",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 150,
+					"EndOffset": 156,
+					"Score": 0.7720046435590336,
+					"Text": "038175",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				},
+				{
+					"BeginOffset": 76,
+					"EndOffset": 82,
+					"Score": 0.7439786144459482,
+					"Text": "310178",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 208,
+					"EndOffset": 230,
+					"Score": 0.7359189294961566,
+					"Text": "Law Chambers\n175 North",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 46,
+					"EndOffset": 60,
+					"Score": 0.7231476709230733,
+					"Text": "Payoh Central,",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 0,
+					"EndOffset": 15,
+					"Score": 0.6820893969909351,
+					"Text": "UNIHEALTH 24-HR",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 244,
+					"EndOffset": 263,
+					"Score": 0.6077945306215911,
+					"Text": "13-72\nCentral Point",
+					"Type": "ADDRESS_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				}
+			],
+			"ID_DRIVER_OWN_INSURED": [
+				{
+					"BeginOffset": 546,
+					"EndOffset": 555,
+					"Score": 0.7580987255239351,
+					"Text": "sxxxx797G",
+					"Type": "ID_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				}
+			],
+			"NAME_CLINIC_3RD_PARTY": [
+				{
+					"BeginOffset": 1885,
+					"EndOffset": 1897,
+					"Score": 0.9884385645990858,
+					"Text": "24-Hr Clinic",
+					"Type": "NAME_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 1885,
+					"EndOffset": 1897,
+					"Score": 0.9884385645990858,
+					"Text": "24-Hr Clinic",
+					"Type": "NAME_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 870,
+					"EndOffset": 876,
+					"Score": 0.7836860951053506,
+					"Text": "Centre",
+					"Type": "NAME_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 851,
+					"EndOffset": 858,
+					"Score": 0.6115865470333592,
+					"Text": "Records",
+					"Type": "NAME_CLINIC_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"NAME_DRIVER_OWN_INSURED": [
+				{
+					"BeginOffset": 337,
+					"EndOffset": 342,
+					"Score": 0.7489475370890889,
+					"Text": "LOCUM",
+					"Type": "NAME_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				}
+			],
+			"NAME_INSURER_3RD_PARTY": [
+				{
+					"BeginOffset": 847,
+					"EndOffset": 850,
+					"Score": 0.8297320829293698,
+					"Text": "GIA",
+					"Type": "NAME_INSURER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 896,
+					"EndOffset": 913,
+					"Score": 0.7649860188161005,
+					"Text": "General Insurance",
+					"Type": "NAME_INSURER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 1875,
+					"EndOffset": 1884,
+					"Score": 0.7069303547451316,
+					"Text": "Unihealth",
+					"Type": "NAME_INSURER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 1875,
+					"EndOffset": 1884,
+					"Score": 0.7069303547451316,
+					"Text": "Unihealth",
+					"Type": "NAME_INSURER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 926,
+					"EndOffset": 940,
+					"Score": 0.6607502951431968,
+					"Text": "of Singapore (",
+					"Type": "NAME_INSURER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"NAME_LAWYER_3RD_PARTY": [
+				{
+					"BeginOffset": 0,
+					"EndOffset": 38,
+					"Score": 0.9491247924373897,
+					"Text": "GB LAW CHAMBERS\nADVOCATES & SOLICITORS",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 0,
+					"EndOffset": 38,
+					"Score": 0.9491247924373897,
+					"Text": "GB LAW CHAMBERS\nADVOCATES & SOLICITORS",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 10,
+					"EndOffset": 22,
+					"Score": 0.8622022376520862,
+					"Text": "POLICE FORCE",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 604,
+					"EndOffset": 655,
+					"Score": 0.7656251104384514,
+					"Text": "ALONG SLIP ROAD OF CTE (CITY) TOWARDS BRADDELL ROAD",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 604,
+					"EndOffset": 655,
+					"Score": 0.7656251104384514,
+					"Text": "ALONG SLIP ROAD OF CTE (CITY) TOWARDS BRADDELL ROAD",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 0,
+					"EndOffset": 12,
+					"Score": 0.6645136824111094,
+					"Text": "SV0L212J0008",
+					"Type": "NAME_LAWYER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"NAME_WORKSHOP_3RD_PARTY": [
+				{
+					"BeginOffset": 0,
+					"EndOffset": 2,
+					"Score": 0.832490584493429,
+					"Text": "GB",
+					"Type": "NAME_WORKSHOP_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				}
+			],
+			"PHONE_DRIVER_OWN_INSURED": [
+				{
+					"BeginOffset": 145,
+					"EndOffset": 153,
+					"Score": 0.8952420711911528,
+					"Text": "62031639",
+					"Type": "PHONE_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 89,
+					"EndOffset": 97,
+					"Score": 0.8443875758010377,
+					"Text": "62031639",
+					"Type": "PHONE_DRIVER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				}
+			],
+			"VEHICLE_NUMBER_3RD_PARTY": [
+				{
+					"BeginOffset": 979,
+					"EndOffset": 987,
+					"Score": 0.9915878361235375,
+					"Text": "SJD5293A",
+					"Type": "VEHICLE_NUMBER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 979,
+					"EndOffset": 987,
+					"Score": 0.9915878361235375,
+					"Text": "SJD5293A",
+					"Type": "VEHICLE_NUMBER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 730,
+					"EndOffset": 738,
+					"Score": 0.974484029912126,
+					"Text": "SLK8014U",
+					"Type": "VEHICLE_NUMBER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 730,
+					"EndOffset": 738,
+					"Score": 0.974484029912126,
+					"Text": "SLK8014U",
+					"Type": "VEHICLE_NUMBER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 76,
+					"EndOffset": 86,
+					"Score": 0.9205586297395056,
+					"Text": "201601907H",
+					"Type": "VEHICLE_NUMBER_3RD_PARTY",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				}
+			],
+			"VEHICLE_NUMBER_OWN_INSURED": [
+				{
+					"BeginOffset": 516,
+					"EndOffset": 519,
+					"Score": 0.6151327683530137,
+					"Text": "Lin",
+					"Type": "VEHICLE_NUMBER_OWN_INSURED",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				}
+			]
+		},
+		{
+			"ADDRESS_POLICYHOLDER": [
+				{
+					"BeginOffset": 117,
+					"EndOffset": 139,
+					"Score": 0.8296842341938248,
+					"Text": "Ubi Avenue 3 SINGAPORE",
+					"Type": "ADDRESS_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 857,
+					"EndOffset": 863,
+					"Score": 0.7424868968582552,
+					"Text": "LORONG",
+					"Type": "ADDRESS_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 867,
+					"EndOffset": 874,
+					"Score": 0.6577579830765192,
+					"Text": "GEYLANG",
+					"Type": "ADDRESS_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				}
+			],
+			"DATE_DRIVING_LICENSE_POLICYHOLDER": [
+				{
+					"BeginOffset": 309,
+					"EndOffset": 310,
+					"Score": 0.992973458365726,
+					"Text": "7",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 72,
+					"EndOffset": 82,
+					"Score": 0.9914326708595316,
+					"Text": "19/02/2021",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 273,
+					"EndOffset": 275,
+					"Score": 0.9625596255512734,
+					"Text": "18",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 252,
+					"EndOffset": 262,
+					"Score": 0.9609773853154803,
+					"Text": "24/05/2021",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 269,
+					"EndOffset": 271,
+					"Score": 0.8864451751555188,
+					"Text": "17",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 269,
+					"EndOffset": 271,
+					"Score": 0.8864451751555188,
+					"Text": "17",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 1280,
+					"EndOffset": 1290,
+					"Score": 0.670669232678376,
+					"Text": "19/02/2021",
+					"Type": "DATE_DRIVING_LICENSE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"DATE_OF_ACCIDENT": [
+				{
+					"BeginOffset": 1859,
+					"EndOffset": 1869,
+					"Score": 0.9955701517675719,
+					"Text": "8 May 2021",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 1859,
+					"EndOffset": 1869,
+					"Score": 0.9955701517675719,
+					"Text": "8 May 2021",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 272,
+					"EndOffset": 275,
+					"Score": 0.9933539629716848,
+					"Text": "MAY",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 272,
+					"EndOffset": 275,
+					"Score": 0.9933539629716848,
+					"Text": "MAY",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 1780,
+					"EndOffset": 1793,
+					"Score": 0.9822015354281121,
+					"Text": "19th February",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 900,
+					"EndOffset": 911,
+					"Score": 0.978964861320501,
+					"Text": "18 FEBRUARY",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 900,
+					"EndOffset": 911,
+					"Score": 0.978964861320501,
+					"Text": "18 FEBRUARY",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 195,
+					"EndOffset": 203,
+					"Score": 0.9770400273537262,
+					"Text": "May 2021",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 276,
+					"EndOffset": 284,
+					"Score": 0.9335873548613983,
+					"Text": "Feb 2021",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"BeginOffset": 1331,
+					"EndOffset": 1336,
+					"Score": 0.8180745052892785,
+					"Text": "16:40",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 394,
+					"EndOffset": 407,
+					"Score": 0.8094671309613598,
+					"Text": "18th February",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"BeginOffset": 83,
+					"EndOffset": 88,
+					"Score": 0.8027906129476676,
+					"Text": "14:51",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 1291,
+					"EndOffset": 1298,
+					"Score": 0.6491673615397035,
+					"Text": "14:51 (",
+					"Type": "DATE_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"EMAIL_POLICYHOLDER": [
+				{
+					"BeginOffset": 163,
+					"EndOffset": 167,
+					"Score": 0.7700498489217567,
+					"Text": "6702",
+					"Type": "EMAIL_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				}
+			],
+			"EMAIL_SENDER": [
+				{
+					"BeginOffset": 199,
+					"EndOffset": 218,
+					"Score": 0.9998703171135284,
+					"Text": "claims@gblaw.com.sg",
+					"Type": "EMAIL_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-2-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				},
+				{
+					"BeginOffset": 199,
+					"EndOffset": 218,
+					"Score": 0.9993827578732719,
+					"Text": "claims@gblaw.com.sg",
+					"Type": "EMAIL_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 199,
+					"EndOffset": 218,
+					"Score": 0.9993827578732719,
+					"Text": "claims@gblaw.com.sg",
+					"Type": "EMAIL_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				}
+			],
+			"LOCATION_OF_ACCIDENT": [
+				{
+					"BeginOffset": 276,
+					"EndOffset": 293,
+					"Score": 0.8071459310342533,
+					"Text": "North Bridge Road",
+					"Type": "LOCATION_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 342,
+					"EndOffset": 360,
+					"Score": 0.7659180801346307,
+					"Text": "75 Bras Basah Road",
+					"Type": "LOCATION_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 342,
+					"EndOffset": 360,
+					"Score": 0.7659180801346307,
+					"Text": "75 Bras Basah Road",
+					"Type": "LOCATION_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				}
+			],
+			"NAME_POLICYHOLDER": [
+				{
+					"BeginOffset": 171,
+					"EndOffset": 174,
+					"Score": 0.6837121608213327,
+					"Text": "TOH",
+					"Type": "NAME_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				}
+			],
+			"NAME_SENDER": [
+				{
+					"BeginOffset": 221,
+					"EndOffset": 228,
+					"Score": 0.723252138491829,
+					"Text": "INVOICE",
+					"Type": "NAME_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-4-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-4-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 4
+				},
+				{
+					"BeginOffset": 281,
+					"EndOffset": 285,
+					"Score": 0.6668356155493971,
+					"Text": "NTUC",
+					"Type": "NAME_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 281,
+					"EndOffset": 285,
+					"Score": 0.6668356155493971,
+					"Text": "NTUC",
+					"Type": "NAME_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 896,
+					"EndOffset": 925,
+					"Score": 0.6235903927403838,
+					"Text": "General Insurance Association",
+					"Type": "NAME_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"PHONE_POLICYHOLDER": [
+				{
+					"BeginOffset": 1693,
+					"EndOffset": 1705,
+					"Score": 0.8396315028120848,
+					"Text": "+65-88320911",
+					"Type": "PHONE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"BeginOffset": 459,
+					"EndOffset": 467,
+					"Score": 0.6099596488140889,
+					"Text": "96073295",
+					"Type": "PHONE_POLICYHOLDER",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				}
+			],
+			"PHONE_SENDER": [
+				{
+					"BeginOffset": 2151,
+					"EndOffset": 2164,
+					"Score": 0.8185751173359359,
+					"Text": "5101937295-02",
+					"Type": "PHONE_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-6-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				}
+			],
+			"REFERENCE_SELF": [
+				{
+					"BeginOffset": 229,
+					"EndOffset": 241,
+					"Score": 0.739877531736457,
+					"Text": "PI.191640/ag",
+					"Type": "REFERENCE_SELF",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-1-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 229,
+					"EndOffset": 241,
+					"Score": 0.739877531736457,
+					"Text": "PI.191640/ag",
+					"Type": "REFERENCE_SELF",
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_TextractJSONFile": "123456/awsout/json/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				}
+			],
+			"REFERENCE_SENDER": [
+				{
+					"BeginOffset": 191,
+					"EndOffset": 194,
+					"Score": 0.831472589381414,
+					"Text": "8th",
+					"Type": "REFERENCE_SENDER",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-3-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				}
+			],
+			"TIME_OF_ACCIDENT": [
+				{
+					"BeginOffset": 263,
+					"EndOffset": 268,
+					"Score": 0.9079811375083282,
+					"Text": "16:58",
+					"Type": "TIME_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/JTB1195_0001-jpg-page-1-response.json",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				},
+				{
+					"BeginOffset": 362,
+					"EndOffset": 366,
+					"Score": 0.8706174372975057,
+					"Text": "8.00",
+					"Type": "TIME_OF_ACCIDENT",
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_TextractJSONFile": "123456/awsout/json/191640 LOD NTUC-pdf-page-5-response.json",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				}
+			]
+		}
+	],
+	"CLASSIFICATION-Response": [
+		{
+			"191640 LOD NTUC.pdf": [
+				{
+					"Name": "TPI",
+					"Score": 0.9986,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-2-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 2
+				},
+				{
+					"Name": "TPI",
+					"Score": 0.9899,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-3-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 3
+				},
+				{
+					"Name": "TPI",
+					"Score": 0.9331,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-5-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 5
+				},
+				{
+					"Name": "TPI",
+					"Score": 0.866,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-6-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 6
+				},
+				{
+					"Name": "FOLLOWUP",
+					"Score": 0.7593,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-7-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 7
+				},
+				{
+					"Name": "TPI",
+					"Score": 0.6827,
+					"_TextractOCRFile": "123456/awsout/text/191640 LOD NTUC-pdf-page-1-text.txt",
+					"_SourceFile": "191640 LOD NTUC.pdf",
+					"_SourceFileId": "6f479ecc-56ed-4e56-b366-25f571045e51",
+					"_SourceFilePage": 1
+				}
+			],
+			"JTB1195_0001.jpg": [
+				{
+					"Name": "TPI",
+					"Score": 0.9941,
+					"_TextractOCRFile": "123456/awsout/text/JTB1195_0001-jpg-page-1-text.txt",
+					"_SourceFile": "JTB1195_0001.jpg",
+					"_SourceFileId": "3d57acd6-196a-4984-acab-a43e75fc8490",
+					"_SourceFilePage": 1
+				}
+			],
+			"test1.txt": [
+				{
+					"Name": "TPI",
+					"Score": 0.6827,
+					"_TextractOCRFile": "123456/awsout/text/test1.txt",
+					"_SourceFile": "test1.txt",
+					"_SourceFileId": "00000-test1-11111",
+					"_SourceFilePage": 1
+				}
+			]
+		}
+	],
+	"SQSMessageID": "2e536c71-ea77-4bf0-82f3-06d540898656"
+}

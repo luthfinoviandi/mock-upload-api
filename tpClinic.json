@@ -1,0 +1,36 @@
+{
+    "voList": [
+        {
+            "key": "11281",
+            "value": "ACUMED MEDICAL GROUP OF CLINICS"
+        },
+        {
+            "key": "11301",
+            "value": "CTPC"
+        },
+        {
+            "key": "11321",
+            "value": "TIONG BAHRU MEDICAL CENTRE"
+        },
+        {
+            "key": "11341",
+            "value": "NotCautionClinic"
+        },
+        {
+            "key": "11362",
+            "value": "Clinic Bee"
+        },
+        {
+            "key": "11363",
+            "value": "Clinic C"
+        },
+        {
+            "key": "1505",
+            "value": "NAKARIN AUTO SALES (SMing)"
+        }
+    ],
+    "status": {
+        "code": "0",
+        "message": "Success"
+    }
+}

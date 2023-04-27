@@ -1,0 +1,408 @@
+{
+    "voList": [
+        {
+            "key": "1005",
+            "value": "ACE AUTOMOBILE APPRAISAL SVCS"
+        },
+        {
+            "key": "1006",
+            "value": "ALLIED AUTO APPRAISAL"
+        },
+        {
+            "key": "1007",
+            "value": "AUTOMOBILE INSPECTION SVCS"
+        },
+        {
+            "key": "1008",
+            "value": "CHOW AUTOMOBILE ASSESSOR"
+        },
+        {
+            "key": "1009",
+            "value": "DELTA-V CONSULTANT"
+        },
+        {
+            "key": "1010",
+            "value": "EQUITABLE APPRAISERS"
+        },
+        {
+            "key": "10101",
+            "value": "RELIANCE SURVEYORS PTE LTD"
+        },
+        {
+            "key": "1011",
+            "value": "FORENSIC CONSULTANTS"
+        },
+        {
+            "key": "1012",
+            "value": "HJL AUTO APPRAISER SVCS"
+        },
+        {
+            "key": "1013",
+            "value": "KENO ASSESSORS"
+        },
+        {
+            "key": "1014",
+            "value": "L H TEO APPRAISAL SVCS"
+        },
+        {
+            "key": "1015",
+            "value": "PAR AUTOMOTIVE CONSULTANCY"
+        },
+        {
+            "key": "1016",
+            "value": "PRECISION APPRAISAL SVCS"
+        },
+        {
+            "key": "1017",
+            "value": "PRESTIGE APPRAISAL SVCS"
+        },
+        {
+            "key": "1018",
+            "value": "PRO PLUS AUTOMOBILE ENGINEERS"
+        },
+        {
+            "key": "1019",
+            "value": "RALEIGH SERVICES"
+        },
+        {
+            "key": "1020",
+            "value": "RELIANCE SURVEY & ADJ. SVC"
+        },
+        {
+            "key": "1021",
+            "value": "RT APPRAISAL"
+        },
+        {
+            "key": "1022",
+            "value": "SC APPRAISAL SVCS"
+        },
+        {
+            "key": "1023",
+            "value": "SINCERE APPRAISAL SERVICES"
+        },
+        {
+            "key": "1024",
+            "value": "UNIQUE APPRAISERS SVC"
+        },
+        {
+            "key": "1025",
+            "value": "UNITED APPRAISAL & MGT"
+        },
+        {
+            "key": "10341",
+            "value": "CHIN TONG MOTOR (K/Bkt)"
+        },
+        {
+            "key": "1073",
+            "value": "AEON AUTO CONSULTANTS LLP"
+        },
+        {
+            "key": "1074",
+            "value": "AUTOMAX SURVEY"
+        },
+        {
+            "key": "1075",
+            "value": "AUTOMOTIVE APPRAISER & SURVEYING"
+        },
+        {
+            "key": "1076",
+            "value": "HS AUTO ASSESSORS"
+        },
+        {
+            "key": "1077",
+            "value": "I-SPEX SERVICES"
+        },
+        {
+            "key": "1078",
+            "value": "KELVIN AUTOMOTIVE APP SVCS"
+        },
+        {
+            "key": "1079",
+            "value": "KTO AUTOMOBILE ASSESSORS"
+        },
+        {
+            "key": "1080",
+            "value": "LEE AUTOMOBILE APP SVCS"
+        },
+        {
+            "key": "1081",
+            "value": "MC-COY APPRAISER PTE LTD"
+        },
+        {
+            "key": "1082",
+            "value": "PERFECT AUTOMOBILE APPR SVCS"
+        },
+        {
+            "key": "1083",
+            "value": "PREMIER APPRAISER SERVICES"
+        },
+        {
+            "key": "1084",
+            "value": "PRIORITY SERVICES"
+        },
+        {
+            "key": "1085",
+            "value": "ST APPRAISAL SERVICES"
+        },
+        {
+            "key": "1086",
+            "value": "UAS SERVICES"
+        },
+        {
+            "key": "1113",
+            "value": "AD AUTO SERVICES"
+        },
+        {
+            "key": "1124",
+            "value": "CRAWFORD & COMPANY INTERNATIONAL"
+        },
+        {
+            "key": "1133",
+            "value": "CITY ADJUSTERS & INVESTIGATORS"
+        },
+        {
+            "key": "1134",
+            "value": "ROG ASSOCIATES"
+        },
+        {
+            "key": "1151",
+            "value": "AUTO SPEC APPRAISER"
+        },
+        {
+            "key": "1174",
+            "value": "ALFA ADJUSTERS (M) SDN BHD"
+        },
+        {
+            "key": "1175",
+            "value": "ASSOCIATED ADJUSTERS SDN BHD"
+        },
+        {
+            "key": "1176",
+            "value": "IMC AUTOMOBILE"
+        },
+        {
+            "key": "1177",
+            "value": "L&L AUTOMOBILE APPRAISER SVCS"
+        },
+        {
+            "key": "1192",
+            "value": "A.I.M.S. ADJUSTERS (M'sia)"
+        },
+        {
+            "key": "1193",
+            "value": "LES APPRAISER"
+        },
+        {
+            "key": "1194",
+            "value": "LWG CONSULTING"
+        },
+        {
+            "key": "1253",
+            "value": "S.H. SERVICES"
+        },
+        {
+            "key": "1260",
+            "value": "AUTOPROBE CONSULTANTS"
+        },
+        {
+            "key": "1273",
+            "value": "E.P. ONG ASSOCIATES (M'sia)"
+        },
+        {
+            "key": "1332",
+            "value": "ZAK ADJUSTMENT (PTE) LTD"
+        },
+        {
+            "key": "1353",
+            "value": "AMAN INSURANCE ADJUSTERS (M'sia)"
+        },
+        {
+            "key": "1354",
+            "value": "PENYELARASAN ANGKASA (M'Sia)"
+        },
+        {
+            "key": "1374",
+            "value": "ADRASON PRIVATE LIMITED"
+        },
+        {
+            "key": "1393",
+            "value": "EQUITY AUTOMOBILE APPRAISAL SVCS"
+        },
+        {
+            "key": "1394",
+            "value": "ELITE ADJUSTMENTS (Msia)"
+        },
+        {
+            "key": "1416",
+            "value": "NEWVEST (M) SDN BHD (M'sia)"
+        },
+        {
+            "key": "1455",
+            "value": "INFINITI APPRAISAL SERVICE"
+        },
+        {
+            "key": "1456",
+            "value": "ISP MANAGEMENT PTE LTD"
+        },
+        {
+            "key": "1468",
+            "value": "JAS APPRAISAL SERVICES"
+        },
+        {
+            "key": "1469",
+            "value": "BJ AUTO ASSESSORS"
+        },
+        {
+            "key": "1542",
+            "value": "SUPREME APPRAISER SERVICES"
+        },
+        {
+            "key": "1553",
+            "value": "PRUDENT ADJUSTORS SERVICES"
+        },
+        {
+            "key": "1573",
+            "value": "MOTOR JASA ADJUSTERS (M'sia)"
+        },
+        {
+            "key": "1599",
+            "value": "OH APPRAISAL SERVICES"
+        },
+        {
+            "key": "3019",
+            "value": "M.C. AUTOMOBILE APPRAISER"
+        },
+        {
+            "key": "5101",
+            "value": "VP APPRAISAL & SERVICES"
+        },
+        {
+            "key": "5103",
+            "value": "TREASURE APPRAISAL SERVICES"
+        },
+        {
+            "key": "5541",
+            "value": "AUTO PERFORMANCE APPRAISAL"
+        },
+        {
+            "key": "5882",
+            "value": "ZAMA ADJUSTERS & INVESTIGATORS (M'sia)"
+        },
+        {
+            "key": "6102",
+            "value": "AUTOMOTIVE ALLIANCE SINGAPORE PTE LTD"
+        },
+        {
+            "key": "6244",
+            "value": "CHARTERED AUTO ASSESSORS"
+        },
+        {
+            "key": "6345",
+            "value": "Y B LIM APPRAISAL SERVICES"
+        },
+        {
+            "key": "6601",
+            "value": "KOAYS CONSULTING PTE LTD"
+        },
+        {
+            "key": "6821",
+            "value": "CA APPRAISER"
+        },
+        {
+            "key": "7641",
+            "value": "C L APPRAISER"
+        },
+        {
+            "key": "7761",
+            "value": "FORMTEAM CONSULTANCY PTE. LTD."
+        },
+        {
+            "key": "7801",
+            "value": "PROMINENT APPRAISER SERVICES"
+        },
+        {
+            "key": "8101",
+            "value": "EXPRESS ADJUSTMENT SERVICE"
+        },
+        {
+            "key": "8801",
+            "value": "MJL AUTO CONSULTANTS"
+        },
+        {
+            "key": "929",
+            "value": "CARLINK CONSULTANCY"
+        },
+        {
+            "key": "930",
+            "value": "CONSTANT APPRAISER"
+        },
+        {
+            "key": "931",
+            "value": "IMPACT ANALYSIS CONSULTANT"
+        },
+        {
+            "key": "932",
+            "value": "IN-HOUSE SURVEYOR (IHS)"
+        },
+        {
+            "key": "933",
+            "value": "JP KNIGHTS"
+        },
+        {
+            "key": "934",
+            "value": "KM AUTO ASSESSORS"
+        },
+        {
+            "key": "935",
+            "value": "LBS AUTO CONSULTANTS"
+        },
+        {
+            "key": "936",
+            "value": "LKK AUTO CONSULTANTS"
+        },
+        {
+            "key": "937",
+            "value": "MIC SURVEY & ASSESSMENT"
+        },
+        {
+            "key": "938",
+            "value": "NAC"
+        },
+        {
+            "key": "939",
+            "value": "PAL'S APPRAISERS"
+        },
+        {
+            "key": "940",
+            "value": "PRIME AUTOMOBILE ADJUSTERS"
+        },
+        {
+            "key": "941",
+            "value": "PRO-OPTION SERVICES"
+        },
+        {
+            "key": "942",
+            "value": "RW AUTOMOTIVE APPRAISERS"
+        },
+        {
+            "key": "943",
+            "value": "SKYCAM AUTOMOBILE SURVEYOR"
+        },
+        {
+            "key": "944",
+            "value": "SPECTRA SERVICES"
+        },
+        {
+            "key": "945",
+            "value": "STA INSPECTION"
+        },
+        {
+            "key": "946",
+            "value": "VAC"
+        }
+    ],
+    "status": {
+        "code": "0",
+        "message": "Success"
+    }
+}

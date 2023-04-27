@@ -1,0 +1,1560 @@
+{
+    "voList": [
+        {
+            "key": "1000",
+            "value": "J CHIA ASSOCIATES"
+        },
+        {
+            "key": "1001",
+            "value": "KSCGP JURIS LLP"
+        },
+        {
+            "key": "1002",
+            "value": "MAXIMUS LAW LLC"
+        },
+        {
+            "key": "10021",
+            "value": "TJ CHENG LAW CORPORATION"
+        },
+        {
+            "key": "1003",
+            "value": "REGENCY LEGAL LLP"
+        },
+        {
+            "key": "10141",
+            "value": "OLIVER QUEK & ASSOCIATES"
+        },
+        {
+            "key": "10301",
+            "value": "LUKE LEE & CO"
+        },
+        {
+            "key": "1053",
+            "value": "A H SULTAN & ASSOCIATES"
+        },
+        {
+            "key": "1054",
+            "value": "ANDREW YAP & COMPANY"
+        },
+        {
+            "key": "1055",
+            "value": "CHARACTERIST LLC"
+        },
+        {
+            "key": "1056",
+            "value": "COSMAS & CO"
+        },
+        {
+            "key": "10561",
+            "value": "LALWANI LAW CHAMBERS"
+        },
+        {
+            "key": "1057",
+            "value": "D RANI & COMPANY"
+        },
+        {
+            "key": "1058",
+            "value": "DHILLON & PARTNERS"
+        },
+        {
+            "key": "1059",
+            "value": "DREW & NAPIER LLC"
+        },
+        {
+            "key": "1060",
+            "value": "H.S. TAY, BAHARIN & PARTNERS"
+        },
+        {
+            "key": "10601",
+            "value": "CHUNG TING FAI & CO"
+        },
+        {
+            "key": "1061",
+            "value": "HARJEET SINGH & CO"
+        },
+        {
+            "key": "1062",
+            "value": "HO WONG & PARTNERS"
+        },
+        {
+            "key": "1063",
+            "value": "INCISIVE LAW LLC"
+        },
+        {
+            "key": "1064",
+            "value": "KHAN & CO"
+        },
+        {
+            "key": "1065",
+            "value": "LEE T H & PARTNERS"
+        },
+        {
+            "key": "1066",
+            "value": "FORTIS LAW CORPORATION"
+        },
+        {
+            "key": "10661",
+            "value": "TEMPLARS LAW LLC"
+        },
+        {
+            "key": "1067",
+            "value": "SNG & COMPANY"
+        },
+        {
+            "key": "1068",
+            "value": "STERLING LAW CORPORATION"
+        },
+        {
+            "key": "1069",
+            "value": "SURIAN & PARTNERS"
+        },
+        {
+            "key": "1070",
+            "value": "TAN LU SENG & CO"
+        },
+        {
+            "key": "1071",
+            "value": "VIRGINIA QUEK LALITA & PARTNERS"
+        },
+        {
+            "key": "1072",
+            "value": "YEO PERUMAL MOHIDEEN LAW CORP"
+        },
+        {
+            "key": "10781",
+            "value": "K.S.PANG & CO"
+        },
+        {
+            "key": "1100",
+            "value": "TAN SHIEW HWA & CO"
+        },
+        {
+            "key": "11041",
+            "value": "LEONG PARTNERSHIP"
+        },
+        {
+            "key": "1111",
+            "value": "ATMD BIRD & BIRD LLP"
+        },
+        {
+            "key": "1112",
+            "value": "TOH TAN LLP"
+        },
+        {
+            "key": "11181",
+            "value": "SUZANA FARIKAH & CO"
+        },
+        {
+            "key": "11261",
+            "value": "TP La1"
+        },
+        {
+            "key": "11262",
+            "value": "TP Lawyer2"
+        },
+        {
+            "key": "1131",
+            "value": "HAR ASSOCIATES"
+        },
+        {
+            "key": "1132",
+            "value": "THAKURTA LOW & RAJENDRA (Msia)"
+        },
+        {
+            "key": "1147",
+            "value": "LEE BON LEONG & CO"
+        },
+        {
+            "key": "1148",
+            "value": "LOO & CHONG ADVOCATES & SOLICITORS"
+        },
+        {
+            "key": "1149",
+            "value": "SHUE & CO"
+        },
+        {
+            "key": "1150",
+            "value": "SIM & COMPANY"
+        },
+        {
+            "key": "11501",
+            "value": "IPAS LAW"
+        },
+        {
+            "key": "11521",
+            "value": "CENTRAL CHAMBERS LAW CORPORATION"
+        },
+        {
+            "key": "11542",
+            "value": "POPULUS LAW CORPORATION"
+        },
+        {
+            "key": "11561",
+            "value": "ALP Law Corporation"
+        },
+        {
+            "key": "1164",
+            "value": "ANDREW LLC"
+        },
+        {
+            "key": "1165",
+            "value": "ASCENTSIA LAW CORPORATION"
+        },
+        {
+            "key": "1166",
+            "value": "COMLAW LLC"
+        },
+        {
+            "key": "1167",
+            "value": "EUGENE HO & PARTNERS"
+        },
+        {
+            "key": "1168",
+            "value": "S.S. PARHAR & CO"
+        },
+        {
+            "key": "1169",
+            "value": "P.L. TAN & TAN (M'sia)"
+        },
+        {
+            "key": "1170",
+            "value": "SINGH & CO"
+        },
+        {
+            "key": "1171",
+            "value": "TRINITY LAW CORPORATION"
+        },
+        {
+            "key": "1188",
+            "value": "B RAO & K S RAJAH"
+        },
+        {
+            "key": "1189",
+            "value": "MYINTSOE & SELVARAJ"
+        },
+        {
+            "key": "1190",
+            "value": "RAJ PRASANNA & PARTNERS"
+        },
+        {
+            "key": "1191",
+            "value": "YU SARN AUDREY & PARTNERS"
+        },
+        {
+            "key": "1207",
+            "value": "ANTHONY & WEE JIN LLC"
+        },
+        {
+            "key": "1208",
+            "value": "GRACE M & ASSOCIATES"
+        },
+        {
+            "key": "1209",
+            "value": "K. SILA DASS & PARTNERS (M'sia)"
+        },
+        {
+            "key": "1210",
+            "value": "LEGAL INK LAW CORPORATION"
+        },
+        {
+            "key": "1211",
+            "value": "TEO & ASSOCIATES (M'sia)"
+        },
+        {
+            "key": "1221",
+            "value": "APAC LAW CORPORATION"
+        },
+        {
+            "key": "1222",
+            "value": "AUP LAW CORPORATION"
+        },
+        {
+            "key": "1223",
+            "value": "J P DENDROFF & CO"
+        },
+        {
+            "key": "1224",
+            "value": "WONG S Y & CO"
+        },
+        {
+            "key": "1239",
+            "value": "CHAND JAG & ASSOCIATES (Msia)"
+        },
+        {
+            "key": "1240",
+            "value": "CHARAN & CO"
+        },
+        {
+            "key": "1241",
+            "value": "HILBORNE & COMPANY"
+        },
+        {
+            "key": "1242",
+            "value": "JOSEPH CHAI & CO"
+        },
+        {
+            "key": "1243",
+            "value": "KANA & CO"
+        },
+        {
+            "key": "1245",
+            "value": "C.K. NG & ASSOCIATES"
+        },
+        {
+            "key": "1246",
+            "value": "CHEONG & KOH"
+        },
+        {
+            "key": "1247",
+            "value": "CONSILIUM LAW CORPORATION"
+        },
+        {
+            "key": "1248",
+            "value": "KERTAR & CO"
+        },
+        {
+            "key": "1251",
+            "value": "KISHAN LLC"
+        },
+        {
+            "key": "1252",
+            "value": "MANJEET SINGH DILLON (Msia)"
+        },
+        {
+            "key": "1270",
+            "value": "GUNA & ASSOCIATES"
+        },
+        {
+            "key": "1271",
+            "value": "JULI & AMELEENA (Msia)"
+        },
+        {
+            "key": "1272",
+            "value": "STRAITS LAW PRACTICE LLC"
+        },
+        {
+            "key": "1285",
+            "value": "LOW YEAP TOH & GOON"
+        },
+        {
+            "key": "1286",
+            "value": "TITO ISAAC & CO LLP"
+        },
+        {
+            "key": "1296",
+            "value": "CHAN JER HIANG & CO"
+        },
+        {
+            "key": "1297",
+            "value": "GURDAIB CHEONG & PARTNERS"
+        },
+        {
+            "key": "1298",
+            "value": "JOSE CHARLES & CO"
+        },
+        {
+            "key": "1299",
+            "value": "K RAVI LAW CORPORATION"
+        },
+        {
+            "key": "1300",
+            "value": "MUZAMMIL & COMPANY"
+        },
+        {
+            "key": "1301",
+            "value": "VELUPILLAI & ASSO (M'sia)"
+        },
+        {
+            "key": "1317",
+            "value": "AMARICK GILL & CO"
+        },
+        {
+            "key": "1318",
+            "value": "CHAN & GOH LLP"
+        },
+        {
+            "key": "1320",
+            "value": "LIM & CHING ADVOCATES & SOLICITORS"
+        },
+        {
+            "key": "1321",
+            "value": "MARK GOH & CO"
+        },
+        {
+            "key": "1322",
+            "value": "ONG & LAU ADVOCATES & SOLICITORS"
+        },
+        {
+            "key": "1331",
+            "value": "A. ZAMZAM & CO"
+        },
+        {
+            "key": "1348",
+            "value": "C. YOGARAJAH LLC"
+        },
+        {
+            "key": "1349",
+            "value": "CENTRAL CHAMBERS LAW CORP"
+        },
+        {
+            "key": "1350",
+            "value": "M RAMA LAW CORP"
+        },
+        {
+            "key": "1351",
+            "value": "THAMES LAW LLP"
+        },
+        {
+            "key": "1367",
+            "value": "COOMA & RAI ADVOCATES & SOLICITOR"
+        },
+        {
+            "key": "1373",
+            "value": "WONG THOMAS & LEONG"
+        },
+        {
+            "key": "1387",
+            "value": "BERNARD & RADA LAW CORP"
+        },
+        {
+            "key": "1388",
+            "value": "M. KUMAR & CO (Msia)"
+        },
+        {
+            "key": "1389",
+            "value": "PEREIRA & TAN LLC"
+        },
+        {
+            "key": "1390",
+            "value": "PREMIER LAW LLC"
+        },
+        {
+            "key": "1391",
+            "value": "ROBERT WANG & WOO LLP"
+        },
+        {
+            "key": "1392",
+            "value": "VENGA & CO (Msia)"
+        },
+        {
+            "key": "1409",
+            "value": "ALFRED TAN & CO"
+        },
+        {
+            "key": "1410",
+            "value": "B. B. MARICAN MAIDEEN & CO"
+        },
+        {
+            "key": "1411",
+            "value": "BESTON LAW LLP"
+        },
+        {
+            "key": "1412",
+            "value": "CHNG YIN & CO (M'sia)"
+        },
+        {
+            "key": "1413",
+            "value": "GABRIEL LAW CORPORATION"
+        },
+        {
+            "key": "1414",
+            "value": "NG, LEE & PARTNERS"
+        },
+        {
+            "key": "1422",
+            "value": "WEE, TAY & LIM LLP"
+        },
+        {
+            "key": "1423",
+            "value": "RAJ KUMAR & RAMA"
+        },
+        {
+            "key": "1424",
+            "value": "LAWRENCE PEREIRA & PRTS (Msia)"
+        },
+        {
+            "key": "1425",
+            "value": "TAN KOK QUAN PARTNERSHIP"
+        },
+        {
+            "key": "1426",
+            "value": "K S LOO & CO"
+        },
+        {
+            "key": "1431",
+            "value": "JEANNY NG"
+        },
+        {
+            "key": "1432",
+            "value": "SAMUEL SEOW LAW CORPORATION"
+        },
+        {
+            "key": "1433",
+            "value": "GRAYS LLC"
+        },
+        {
+            "key": "1446",
+            "value": "ESVARAN & TAN"
+        },
+        {
+            "key": "1447",
+            "value": "ATKINS LAW CORPORATION"
+        },
+        {
+            "key": "1448",
+            "value": "A. ROHIM NOOR LILA & PARTNERS"
+        },
+        {
+            "key": "1453",
+            "value": "B RENGARAJOO & ASSOCIATES"
+        },
+        {
+            "key": "1454",
+            "value": "TANG & PARTNERS"
+        },
+        {
+            "key": "1465",
+            "value": "ARI GOH & PARTNERS"
+        },
+        {
+            "key": "1466",
+            "value": "SIOW ITMING & CO"
+        },
+        {
+            "key": "1467",
+            "value": "JOSEPH TAN JUDE BENNY LLP"
+        },
+        {
+            "key": "1477",
+            "value": "J.S. YEH & CO"
+        },
+        {
+            "key": "1490",
+            "value": "ANG & PARTNERS"
+        },
+        {
+            "key": "1491",
+            "value": "JAY ASSOCIATES"
+        },
+        {
+            "key": "1492",
+            "value": "MICHAEL BB ONG & CO"
+        },
+        {
+            "key": "1493",
+            "value": "SEAH & CO"
+        },
+        {
+            "key": "1494",
+            "value": "THIRU & CO (Msia)"
+        },
+        {
+            "key": "1506",
+            "value": "C SANKARAN & CO (Msia)"
+        },
+        {
+            "key": "1507",
+            "value": "FIROZE & MAY LLC"
+        },
+        {
+            "key": "1508",
+            "value": "GSP RAVINDRAN & CO (Msia)"
+        },
+        {
+            "key": "1509",
+            "value": "IMRAN SHAHAREEN & CO (Msia)"
+        },
+        {
+            "key": "1510",
+            "value": "JEYABALEN AND PARTNERS"
+        },
+        {
+            "key": "1511",
+            "value": "LMJ LAW CORPORATION"
+        },
+        {
+            "key": "1512",
+            "value": "SUBRA TT LAW LLC"
+        },
+        {
+            "key": "1513",
+            "value": "SUKDAVE, SHARMA & PARTNERS"
+        },
+        {
+            "key": "1514",
+            "value": "UNITED LEGAL ALLIANCE LLC"
+        },
+        {
+            "key": "1515",
+            "value": "V RAMAKRISHNAN & CO"
+        },
+        {
+            "key": "1531",
+            "value": "A S DHALIWAL (Msia)"
+        },
+        {
+            "key": "1532",
+            "value": "CTLC LAW CORPORATION"
+        },
+        {
+            "key": "1533",
+            "value": "ESSEX LLC"
+        },
+        {
+            "key": "1534",
+            "value": "GLOBAL LAW ALLIANCE LLC"
+        },
+        {
+            "key": "1535",
+            "value": "JAMES MASIH & COMPANY"
+        },
+        {
+            "key": "1536",
+            "value": "JENNY LAI & CO"
+        },
+        {
+            "key": "1537",
+            "value": "KALAMOHAN & CO"
+        },
+        {
+            "key": "1538",
+            "value": "LEE & LEE"
+        },
+        {
+            "key": "1539",
+            "value": "LOY & COMPANY"
+        },
+        {
+            "key": "1540",
+            "value": "RHTLAW TAYLOR WESSING LLP"
+        },
+        {
+            "key": "1541",
+            "value": "TAN SEE SWAN & CO"
+        },
+        {
+            "key": "1552",
+            "value": "ABLE LAW PRACTICE LLC"
+        },
+        {
+            "key": "1563",
+            "value": "ASHFAR ALI AND ASSOCIATES (Msia)"
+        },
+        {
+            "key": "1564",
+            "value": "ELITAIRE LAW LLP"
+        },
+        {
+            "key": "1565",
+            "value": "JUBILEE LAW"
+        },
+        {
+            "key": "1566",
+            "value": "KALPANATH & COMPANY"
+        },
+        {
+            "key": "1567",
+            "value": "KARUPPAN CHETTIAR & P"
+        },
+        {
+            "key": "1568",
+            "value": "KELVIN CHIA PARTNERSHIP"
+        },
+        {
+            "key": "1569",
+            "value": "LEGAL OPTIONS LLC"
+        },
+        {
+            "key": "1570",
+            "value": "RELIANZE LAW CORPORATION"
+        },
+        {
+            "key": "1571",
+            "value": "TAN, LEE & CHOO"
+        },
+        {
+            "key": "1572",
+            "value": "ZAMAN & ASSOCIATES (Msia)"
+        },
+        {
+            "key": "1589",
+            "value": "PETER EZEKIEL & CO"
+        },
+        {
+            "key": "1596",
+            "value": "MICHELE LIM & ASSOCIATES"
+        },
+        {
+            "key": "1597",
+            "value": "LAM W. S. & CO"
+        },
+        {
+            "key": "1598",
+            "value": "SADARI MUSARI & PARTNERS"
+        },
+        {
+            "key": "3016",
+            "value": "JUST LAW LLC"
+        },
+        {
+            "key": "3028",
+            "value": "SAW & TAN"
+        },
+        {
+            "key": "3029",
+            "value": "SHAIK ADAM & CO (Msia)"
+        },
+        {
+            "key": "5001",
+            "value": "CHRIS GILL & CO"
+        },
+        {
+            "key": "5081",
+            "value": "ABRAHAM TEO & CO"
+        },
+        {
+            "key": "5102",
+            "value": "CONTINENTAL LAW LLP"
+        },
+        {
+            "key": "5121",
+            "value": "TAN RAJAH & CHEAH"
+        },
+        {
+            "key": "5122",
+            "value": "REGENT LAW LLC"
+        },
+        {
+            "key": "5123",
+            "value": "EAST ASIA LAW CORPORATION"
+        },
+        {
+            "key": "5124",
+            "value": "GURCHARANPAL SINGH & CO"
+        },
+        {
+            "key": "5141",
+            "value": "DAVID ONG & PARTNERS"
+        },
+        {
+            "key": "5142",
+            "value": "RAYMOND LAM & CO"
+        },
+        {
+            "key": "5201",
+            "value": "S.BALBIR SINGH & CO (Msia)"
+        },
+        {
+            "key": "5242",
+            "value": "GEET & ASSOCIATES (M'Sia)"
+        },
+        {
+            "key": "5261",
+            "value": "A ANG SEAH & HOE"
+        },
+        {
+            "key": "5501",
+            "value": "TAN & AU LLP"
+        },
+        {
+            "key": "5502",
+            "value": "KALCO LAW LLC"
+        },
+        {
+            "key": "5521",
+            "value": "T.C. SIVA & PARTNERS"
+        },
+        {
+            "key": "5561",
+            "value": "CK TAN & CO"
+        },
+        {
+            "key": "5601",
+            "value": "COSMAS LLC"
+        },
+        {
+            "key": "5641",
+            "value": "MICHAEL TEOH, BALAN & IDA ZURA (Msia)"
+        },
+        {
+            "key": "5841",
+            "value": "M NEDUMARAN & CO"
+        },
+        {
+            "key": "5881",
+            "value": "APTUS LAW CORPORATION"
+        },
+        {
+            "key": "5901",
+            "value": "H T HWA & ASSOCIATES"
+        },
+        {
+            "key": "5984",
+            "value": "A. B. NG & ASSOCIATES (Msia)"
+        },
+        {
+            "key": "6121",
+            "value": "SAHRIL NIZA & CO (M'sia)"
+        },
+        {
+            "key": "6307",
+            "value": "LIM SWEE TEE & COMPANY"
+        },
+        {
+            "key": "6316",
+            "value": "ARASAN LAW CHAMBERS"
+        },
+        {
+            "key": "6317",
+            "value": "MALLAL & NAMAZIE"
+        },
+        {
+            "key": "6318",
+            "value": "KANGA & CO"
+        },
+        {
+            "key": "6319",
+            "value": "SURESHAN LLC"
+        },
+        {
+            "key": "6320",
+            "value": "AZNUR MAZWIN & ASSOCIATES"
+        },
+        {
+            "key": "6321",
+            "value": "VINIT CHHABRA PARTNERSHIP"
+        },
+        {
+            "key": "6322",
+            "value": "S K KUMAR LAW PRACTICE LLP"
+        },
+        {
+            "key": "6323",
+            "value": "TAN LEE & CHOO"
+        },
+        {
+            "key": "6324",
+            "value": "HARRY ELIAS PARTNERSHIP LLP"
+        },
+        {
+            "key": "6325",
+            "value": "P M ONG & CO"
+        },
+        {
+            "key": "6341",
+            "value": "THE L.A. LAW CHAMBERS LLC"
+        },
+        {
+            "key": "6342",
+            "value": "LAWHUB LLC"
+        },
+        {
+            "key": "6343",
+            "value": "LISA SAM & COMPANY"
+        },
+        {
+            "key": "6344",
+            "value": "LAU TEIK SOON & ASSOCIATES"
+        },
+        {
+            "key": "6382",
+            "value": "VIJAYA SANDRAN (M'sia)"
+        },
+        {
+            "key": "6401",
+            "value": "FAIRUZ HANIZA & ASSOCIATES (M'SIA)"
+        },
+        {
+            "key": "6461",
+            "value": "MURTHY & CO"
+        },
+        {
+            "key": "6462",
+            "value": "CENTRO-LEGAL LAW CORPORATION"
+        },
+        {
+            "key": "6482",
+            "value": "SATWANT & ASSOCIATES"
+        },
+        {
+            "key": "6501",
+            "value": "WINCHESTER LAW LLC"
+        },
+        {
+            "key": "6502",
+            "value": "WONG ALLIANCE"
+        },
+        {
+            "key": "6521",
+            "value": "G N TANG & CO"
+        },
+        {
+            "key": "6741",
+            "value": "JAYAPRATHAP & RAKAN RAKAN"
+        },
+        {
+            "key": "6761",
+            "value": "SUKHDEV & ASSOCIATES"
+        },
+        {
+            "key": "6881",
+            "value": "TOH CHIN CHONG & CO (Msia)"
+        },
+        {
+            "key": "6941",
+            "value": "V GOBI & ASSOCIATES"
+        },
+        {
+            "key": "7181",
+            "value": "M & A LAW CORPORATION"
+        },
+        {
+            "key": "7381",
+            "value": "ACHIEVERS LLC"
+        },
+        {
+            "key": "750",
+            "value": "A C SYED & PARTNERS"
+        },
+        {
+            "key": "751",
+            "value": "ABRAHAM LOGAN & PARTNERS"
+        },
+        {
+            "key": "752",
+            "value": "AEGIS LLC"
+        },
+        {
+            "key": "753",
+            "value": "ALAN SHANKAR & LIM"
+        },
+        {
+            "key": "754",
+            "value": "ALLAN HENG & CO"
+        },
+        {
+            "key": "755",
+            "value": "ALPHA LAW LLC"
+        },
+        {
+            "key": "756",
+            "value": "ANDREW & CO"
+        },
+        {
+            "key": "757",
+            "value": "ARIDAS & ASSOCIATES"
+        },
+        {
+            "key": "758",
+            "value": "ASSOMULL & PARTNERS"
+        },
+        {
+            "key": "759",
+            "value": "BALASUBRAMANIAM"
+        },
+        {
+            "key": "760",
+            "value": "BENEDICT CHAN & CO"
+        },
+        {
+            "key": "761",
+            "value": "BONNIE KWOK LLC"
+        },
+        {
+            "key": "762",
+            "value": "C PAGLAR & CO"
+        },
+        {
+            "key": "763",
+            "value": "CATHERINE LIM LLC"
+        },
+        {
+            "key": "764",
+            "value": "CHAMBERS LAW LLP"
+        },
+        {
+            "key": "765",
+            "value": "CHAN & GOH"
+        },
+        {
+            "key": "766",
+            "value": "CHANCERY LAW CORPORATION"
+        },
+        {
+            "key": "767",
+            "value": "CHIA S ARUL LLC"
+        },
+        {
+            "key": "768",
+            "value": "CHINGCO LAW CORPORATION"
+        },
+        {
+            "key": "7681",
+            "value": "BROWN PEREIRA & CO"
+        },
+        {
+            "key": "769",
+            "value": "CHRISTINE SEAH & COMPANY"
+        },
+        {
+            "key": "770",
+            "value": "CHYE KWEE YEOW (M'sia)"
+        },
+        {
+            "key": "7701",
+            "value": "A C CHEONG & CO"
+        },
+        {
+            "key": "771",
+            "value": "CK TEO & CO"
+        },
+        {
+            "key": "772",
+            "value": "CROSSBOWS LLP"
+        },
+        {
+            "key": "773",
+            "value": "DANIEL POON & CO"
+        },
+        {
+            "key": "774",
+            "value": "DAVE ANAN (M'sia)"
+        },
+        {
+            "key": "775",
+            "value": "DAVID ONG & CO"
+        },
+        {
+            "key": "776",
+            "value": "DAVID SIOW, CHUA & TAN"
+        },
+        {
+            "key": "777",
+            "value": "DOMINION LLC"
+        },
+        {
+            "key": "778",
+            "value": "JUSEQUITY LAW CORPORATION"
+        },
+        {
+            "key": "779",
+            "value": "FABIAN & KHOO"
+        },
+        {
+            "key": "780",
+            "value": "FAM, TAY & LEE"
+        },
+        {
+            "key": "781",
+            "value": "FOO KWOK LLC"
+        },
+        {
+            "key": "782",
+            "value": "G S LIM & PARTNERS"
+        },
+        {
+            "key": "783",
+            "value": "GENESIS LAW CORPORATION"
+        },
+        {
+            "key": "784",
+            "value": "GOH JP & WONG"
+        },
+        {
+            "key": "785",
+            "value": "HARPAL MAHTANI"
+        },
+        {
+            "key": "786",
+            "value": "HIN TAT AUGUSTINE"
+        },
+        {
+            "key": "787",
+            "value": "HOH LAW CORPORATION"
+        },
+        {
+            "key": "788",
+            "value": "ISLAND LAW LLC"
+        },
+        {
+            "key": "789",
+            "value": "JAN CHUA & ASSOCIATES"
+        },
+        {
+            "key": "790",
+            "value": "JLC ADVISORS LLP"
+        },
+        {
+            "key": "791",
+            "value": "JOSEPH GAY & COMPANY"
+        },
+        {
+            "key": "792",
+            "value": "K K CHENG & CO"
+        },
+        {
+            "key": "793",
+            "value": "K KRISHNA & PARTNERS"
+        },
+        {
+            "key": "794",
+            "value": "K L LIM & SEBASTIAN QUEK"
+        },
+        {
+            "key": "795",
+            "value": "K S CHIA GURDEEP & PARAM"
+        },
+        {
+            "key": "796",
+            "value": "KALAI & CO"
+        },
+        {
+            "key": "797",
+            "value": "KANNAN SG ADV & SOLS"
+        },
+        {
+            "key": "798",
+            "value": "KHATTARWONG"
+        },
+        {
+            "key": "799",
+            "value": "KISHAN & V SURIA"
+        },
+        {
+            "key": "800",
+            "value": "KURU & CO"
+        },
+        {
+            "key": "801",
+            "value": "KURUP & BOO"
+        },
+        {
+            "key": "802",
+            "value": "KWONG LEE ENG PTE LTD"
+        },
+        {
+            "key": "803",
+            "value": "LAU & GUR"
+        },
+        {
+            "key": "804",
+            "value": "LAWRENCE CHUA & PARTNERS"
+        },
+        {
+            "key": "805",
+            "value": "LAWRENCE LEE & CO"
+        },
+        {
+            "key": "806",
+            "value": "LEE & TAN"
+        },
+        {
+            "key": "807",
+            "value": "LEE SHERGILL LLP"
+        },
+        {
+            "key": "808",
+            "value": "LEGAL CLINIC LLC"
+        },
+        {
+            "key": "809",
+            "value": "LEGISTE LAW CORPORATION"
+        },
+        {
+            "key": "810",
+            "value": "LEONARD LOO LLP"
+        },
+        {
+            "key": "811",
+            "value": "LEONG CHIA & LEE"
+        },
+        {
+            "key": "812",
+            "value": "LEONG CHUA & WONG"
+        },
+        {
+            "key": "813",
+            "value": "LEXCOMPASS LLC"
+        },
+        {
+            "key": "814",
+            "value": "LEXTON LAW CORPORATION"
+        },
+        {
+            "key": "815",
+            "value": "LIBERTY LAW PRACTICE LLP"
+        },
+        {
+            "key": "816",
+            "value": "MAHADI ABU BAKAR"
+        },
+        {
+            "key": "817",
+            "value": "MAHMOOD GAZNAVI"
+        },
+        {
+            "key": "818",
+            "value": "MATHEW CHEW & CHELLIAH"
+        },
+        {
+            "key": "8182",
+            "value": "JEYA & ASSOCIATES"
+        },
+        {
+            "key": "819",
+            "value": "N M TIONG & CO (M'sia)"
+        },
+        {
+            "key": "820",
+            "value": "NANYANG LAW LLC"
+        },
+        {
+            "key": "821",
+            "value": "NEO & LIM"
+        },
+        {
+            "key": "822",
+            "value": "NETTO & MAGIN LLC"
+        },
+        {
+            "key": "823",
+            "value": "ONG CHEONG WEI & COMPANY"
+        },
+        {
+            "key": "824",
+            "value": "ORACLE LAW CORPORATION"
+        },
+        {
+            "key": "825",
+            "value": "PARWANI & CO"
+        },
+        {
+            "key": "826",
+            "value": "PATRICK CHIN SYN & CO"
+        },
+        {
+            "key": "827",
+            "value": "PETER ONG & RAYMOND TAN"
+        },
+        {
+            "key": "828",
+            "value": "PRASANNA DEVI & CO"
+        },
+        {
+            "key": "8281",
+            "value": "CHYE LEGAL PRACTICE"
+        },
+        {
+            "key": "829",
+            "value": "PRESTIGE LEGAL LLP"
+        },
+        {
+            "key": "830",
+            "value": "PRITAM SINGH GILL & CO"
+        },
+        {
+            "key": "8301",
+            "value": "CROSSBORDERS LLC"
+        },
+        {
+            "key": "831",
+            "value": "PY LEGAL LLC"
+        },
+        {
+            "key": "832",
+            "value": "R TIWARY & COMPANY"
+        },
+        {
+            "key": "833",
+            "value": "RAHIM & LAWRNEE (M'sia)"
+        },
+        {
+            "key": "834",
+            "value": "RAMDAS & WONG"
+        },
+        {
+            "key": "835",
+            "value": "RAVI & ASSOCIATES"
+        },
+        {
+            "key": "836",
+            "value": "RAVI LIM & PARTNERS"
+        },
+        {
+            "key": "837",
+            "value": "DG LAW LLC"
+        },
+        {
+            "key": "838",
+            "value": "RIAZ LLC"
+        },
+        {
+            "key": "8382",
+            "value": "ABDUL RAHIM & CO (M'sia)"
+        },
+        {
+            "key": "839",
+            "value": "RODYK & DAVIDSON LLP"
+        },
+        {
+            "key": "840",
+            "value": "ROY & ASSOCIATES (M'sia)"
+        },
+        {
+            "key": "8401",
+            "value": "I.R.B LAW LLP"
+        },
+        {
+            "key": "841",
+            "value": "ROY & PARTNERS"
+        },
+        {
+            "key": "842",
+            "value": "S T CHELVAN & CO"
+        },
+        {
+            "key": "843",
+            "value": "SAM KOH & CO"
+        },
+        {
+            "key": "844",
+            "value": "SANKAR OW & PARTNERS LLP"
+        },
+        {
+            "key": "845",
+            "value": "SIA BOON PENG & CO (Msia)"
+        },
+        {
+            "key": "846",
+            "value": "SIM MONG TECK & PARTNERS"
+        },
+        {
+            "key": "847",
+            "value": "SOLOMON RICHARD & CO"
+        },
+        {
+            "key": "848",
+            "value": "TAN CHIN HOE & CO"
+        },
+        {
+            "key": "849",
+            "value": "TAN LAY KENG & CO"
+        },
+        {
+            "key": "850",
+            "value": "TAN LEROY & CHANDRA"
+        },
+        {
+            "key": "851",
+            "value": "TAN LIAN KER & CO"
+        },
+        {
+            "key": "852",
+            "value": "TEO KENG SIANG & PARTNERS"
+        },
+        {
+            "key": "853",
+            "value": "THOMAS THAM DINAGARAN"
+        },
+        {
+            "key": "854",
+            "value": "THONG SENG KONG (M'sia)"
+        },
+        {
+            "key": "855",
+            "value": "TIMOTHY ONG LIM"
+        },
+        {
+            "key": "856",
+            "value": "TNG SOON CHYE & CO"
+        },
+        {
+            "key": "857",
+            "value": "TOMMY CHOO MARK GO"
+        },
+        {
+            "key": "858",
+            "value": "UNILEGAL LLC"
+        },
+        {
+            "key": "859",
+            "value": "VERITAS LAW CORPORATION"
+        },
+        {
+            "key": "860",
+            "value": "VIJAYA GOPAL (M'sia)"
+        },
+        {
+            "key": "861",
+            "value": "VISION LAW LLC"
+        },
+        {
+            "key": "862",
+            "value": "WILLIAM CHAI SUNFORESTER"
+        },
+        {
+            "key": "863",
+            "value": "WINSTON LOW & PARTNERS"
+        },
+        {
+            "key": "864",
+            "value": "WINSTON QUEK & COMPANY"
+        },
+        {
+            "key": "865",
+            "value": "WONG CHANG & TAY"
+        },
+        {
+            "key": "866",
+            "value": "WONG GOPAL & RAI"
+        },
+        {
+            "key": "867",
+            "value": "WOODWORTH & ASSOCIATES"
+        },
+        {
+            "key": "868",
+            "value": "WU LLC"
+        },
+        {
+            "key": "869",
+            "value": "YAP KIM CHENG & CO"
+        },
+        {
+            "key": "870",
+            "value": "YAP LOH & PARTNERS"
+        },
+        {
+            "key": "871",
+            "value": "YEO TAN HOON & TEE (Msia)"
+        },
+        {
+            "key": "872",
+            "value": "YEO-LEONG & PEH LLC"
+        },
+        {
+            "key": "873",
+            "value": "YIK KOH TEO LLC"
+        },
+        {
+            "key": "874",
+            "value": "YONG CHEN LIM & S. (Msia)"
+        },
+        {
+            "key": "875",
+            "value": "YONG KOH & PARTNERS"
+        },
+        {
+            "key": "876",
+            "value": "YU & CO"
+        },
+        {
+            "key": "8781",
+            "value": "MARICAN & ASSOCIATES"
+        },
+        {
+            "key": "8881",
+            "value": "SALEM IBRAHIM LLC"
+        },
+        {
+            "key": "8921",
+            "value": "RABIAH & ASSOCIATES"
+        },
+        {
+            "key": "8961",
+            "value": "BRIJNANDAN SINGH BHAR & CO (M'sia)"
+        },
+        {
+            "key": "9001",
+            "value": "GLORIA JAMES-CIVETTA & CO"
+        },
+        {
+            "key": "9041",
+            "value": "SATWANT S R & PARTNERS"
+        },
+        {
+            "key": "9081",
+            "value": "K.S. PANG & CO (M'sia)"
+        },
+        {
+            "key": "9101",
+            "value": "CHONG KAH KHEN & HARRIS"
+        },
+        {
+            "key": "9221",
+            "value": "ADILAH KHIRUL & RABIAH"
+        },
+        {
+            "key": "9321",
+            "value": "THIRU & CO (S'pore)"
+        },
+        {
+            "key": "9341",
+            "value": "ACE INSURANCE LIMITED"
+        },
+        {
+            "key": "9361",
+            "value": "ASIALEGAL LLC"
+        },
+        {
+            "key": "9381",
+            "value": "CHONG CHIA & LIM LLC"
+        },
+        {
+            "key": "9521",
+            "value": "SEGERAM & CO"
+        },
+        {
+            "key": "9801",
+            "value": "ABDUL AZIZ LAW PRACTICE"
+        },
+        {
+            "key": "9881",
+            "value": "APL LAW CORPORATION"
+        },
+        {
+            "key": "990",
+            "value": "A L HUSSIEN & FAIZAL WAHYUNI"
+        },
+        {
+            "key": "991",
+            "value": "ACIES LAW"
+        },
+        {
+            "key": "992",
+            "value": "BOGAARS & DIN"
+        },
+        {
+            "key": "993",
+            "value": "CENTRO-LEGAL LLP"
+        },
+        {
+            "key": "994",
+            "value": "CHEONGHOH LAW CORPORATION"
+        },
+        {
+            "key": "995",
+            "value": "CLIFFORD LAW"
+        },
+        {
+            "key": "996",
+            "value": "DE SOUZA LIM & GOH LLP"
+        },
+        {
+            "key": "997",
+            "value": "DILIP KUMAR ASSOCIATES"
+        },
+        {
+            "key": "998",
+            "value": "ENGELIN TEH PRACTICE LLC"
+        },
+        {
+            "key": "999",
+            "value": "FRANCIS KHOO & LIM"
+        }
+    ],
+    "status": {
+        "code": "0",
+        "message": "Success"
+    }
+}

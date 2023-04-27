@@ -1,0 +1,4352 @@
+[{
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "1",
+            "validPolicyCoverage": "2"
+        },
+        "claimNo": "MT/34227880-001",
+        "claimCaseSOABOs": [{
+            "accidentType": "MC5027",
+            "accidentPlace": "Location A",
+            "countryOfAccident": "1",
+            "claimNo": "MT/34227880",
+            "accidentTime": "01112019 10:00:00",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Francisco Kutch",
+                "tpClaimantNric": "S406197",
+                "tpDriverInjured": "Y",      
+                "tpInjuryType": "10",          
+                "tpVehicleNo": "SG716270A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Mr.",
+                "tpDriverNric": "S226332A",
+                "tpClaimantType": "2",
+                "tpWorkshop": "1",
+                "tpWorkshopAddress": "733 Sister Trail",
+                "tpLawyer": "1",
+                "tpLawyerAddress": "60956 Kub Track",
+                "tpClinic": "1",
+                "tpClinicAddress": "843 Wilderman Square",
+                "tpInsurer": "1",
+                "tpSurveyor": "2",
+                "tpClaimSource": "1",
+                "giaReport": "1",
+                "tpContactName": "Rufus Schulist III",
+                "tpContactNRIC": "S144883A",
+                "tpContactAddress": "64994 Gerhold Summit",
+                "tpContactAddressPostCode": "999999",
+                "tpContactAddressUnitNo": "12",
+                "akReferenceNo": "993",
+                "claimAmount": "974",
+                "giaReport": "1",
+                "privateHireTpVehicle": "3",
+                "claimOfficer": "xx yyy",
+                "lossConsequence": "01_CT51"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG6424",
+            "policyNo": "P741634",
+            "policyHolderName": "Diana Jacobson",
+            "policyHolderNric": "S845488A",
+            "productCode": "1do",
+            "coverType": "drivo CLASSIC"
+        },
+        {
+            "vehicleNo": "SG6425",
+            "policyNo": "P741635",
+            "policyHolderName": "Diana Jacobson 2",
+            "policyHolderNric": "S845488B",
+            "productCode": "2do",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG716270A",
+                    "beginOffset": 11,
+                    "score": 0.8577985763549805,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG716278V",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG749028",
+                    "score": 0.72109809123,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG749020",
+                        "score": 0.657123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "email"
+                    }]
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "18:25:00",
+                    "score": 0.2200942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "12:35:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "06/19/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Chain Collision",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Flood",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location A",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Location B",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Location C",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Outside Singapore",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Turner Group",
+                    "score": 0.8700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Newbold Corporation",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Rufus Schulist III",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Rufus Schulist II",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S144883A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S2105098",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "64994 Gerhold Summit",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "39 Ubi Road 1 #02-00 WORLD PUBLICATIONS BUILDING",
+                        "score": 0.26465858817100524,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/34227880",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "MT/34227866",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Francisco Kutch",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Pedestrian",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Passenger",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S406197",
+                    "score": 0.812312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S406192",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Lawyer",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Taxis",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Green LLC",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "733 Sister Trail",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Schultz, Marks and Schiller",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "Barton, Erdman and Rutherfor",
+                    "score": 0.657123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Botsford, Marquardt and Purdy",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "993",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "974",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "1",
+            "validPolicyCoverage": "2"
+        },
+        "claimNo": "MT/26968394-001",
+        "claimCaseSOABOs": [],
+        "policySOABOs": [{
+            "vehicleNo": "SG6424",
+            "policyNo": "P741634",
+            "certificateNo": "68605",
+            "policyHolderName": "Diana Jacobson",
+            "policyHolderNric": "S845488A",
+            "productCode": "1do",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG296043A",
+                    "beginOffset": 11,
+                    "score": 0.989121,
+                    "endOffset": 16,
+                    "data": "email"
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG6424",
+                    "score": 0.9800121,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG749020",
+                        "score": 0.657123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "email"
+                    }]
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "12:25:00",
+                    "score": 0.908012312,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "12:35:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "2/11/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Flood",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location A",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Location B",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Location C",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Outside Singapore",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Aufderhar and Sons",
+                    "score": 0.8700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Newbold Corporation",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Inez Pfeffer",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Inez Pfeffir",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S862337A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "0061 Elta Junction",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/34227880",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "MT/34227866",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Francisco Kutch",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Pedestrian",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Passenger",
+                        "score": 0.81092311235,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S406197",
+                    "score": 0.812312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S406192",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Lawyer",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Taxis",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Reinger, Bode and Crist",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "2787 Tobin Neck",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Stehr - Beatty",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "Kohler, Fisher and Tremblay",
+                    "score": 0.98212314,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Jenkins, Hayes and Zboncak",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "115",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "484",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "2",
+            "validPolicyCoverage": "2"
+        },
+        "claimNo": "MT/8050027",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD620428A",
+            "accidentTime": "2022-04-12T11:27:40Z",
+            "accidentType": "Car Park",
+            "accidentPlace": "Location B",
+            "countryOfAccident": "Outside Singapore",
+            "claimNo": "MT/8050027",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Marcos Gottlieb",
+                "tpClaimantNric": "S93258",
+                "tpClaimantType": "PMD",
+                "tpDriverInjured": "2",
+                "tpInjuryType": "6",
+                "tpVehicleNo": "SG99224A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Pearl Parker",
+                "tpDriverNric": "S857998A",
+                "tpWorkshop": "Hand and Sons",
+                "tpWorkshopAddress": "976 Reynolds Roads",
+                "tpLawyer": "Schumm - Hamill",
+                "tpLawyerAddress": "170 Solon Alley",
+                "tpClinic": "Block - Glover",
+                "tpClinicAddress": "262 Audreanne Well",
+                "tpInsurer": "Price Inc",
+                "tpSurveyor": "McGlynn - Lang",
+                "tpClaimSource": "Direct Claimant",
+                "giaReport": "Incredible Soft Bacon",
+                "tpContactName": "Phyllis Gutkowski Jr.",
+                "tpContactNRIC": "S657797A",
+                "tpContactAddress": "430 Otilia Rue",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "724",
+                "claimAmount": "526",
+                "dateOfAccident": "2022-07-20T04:33:54.304Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG869094",
+            "policyNo": "P535321",
+            "certificateNo": "593341",
+            "policyHolderName": "Hope Stroman",
+            "policyHolderNric": "S85655A",
+            "productCode": "kiw",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG716270A",
+                    "beginOffset": 11,
+                    "score": 0.8577985763549805,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG716278V",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG8690944",
+                    "score": 0.22109809123,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG749020",
+                        "score": 0.657123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "email"
+                    }]
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "11:25:00",
+                    "score": 0.7681231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "11:22:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "04/12/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Side Swipe",
+                    "score": 0.29123124,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Flood",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location B",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Location A",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Location C",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Schumm - Hamill",
+                    "score": 0.901232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Schumm - Hamil",
+                        "score": 0.9000012,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Phyllis Gutkowski Jr.",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Phyllis Gutkowski Jr",
+                        "score": 0.89123123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S657797A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S6577974",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "430 Otilia Rue",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "430 Ostilia Rue",
+                        "score": 0.26465858817100524,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/8050027",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Marcos Gottlieb",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Pet",
+                    "score": 0.798123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Driver",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S93258",
+                    "score": 0.9123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S93250",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Internal Adjustment",
+                    "score": 0.712312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Taxis",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Hand and Son",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "976 Reynolds Roads",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Block - Gover",
+                    "score": 0.409123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "McGlynn - Lang",
+                    "score": 0.657123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Price Inc",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "724",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "526",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "1",
+            "validPolicyCoverage": "2"
+        },
+        "claimNo": "MT/71799725",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD670993A",
+            "accidentType": "Flood",
+            "accidentPlace": "Location A",
+            "countryOfAccident": "Singapore",
+            "accidentTime": "2022-07-19T12:25:40Z",
+            "claimNo": "MT/71799725",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Edmund Jast",
+                "tpClaimantNric": "S414272",
+                "tpClaimantType": "Owner & Driver",
+                "tpDriverInjured": "1",
+                "tpInjuryType": "1",
+                "tpVehicleNo": "SG410842A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Jerry Koch",
+                "tpDriverNric": "S13916A",
+                "tpWorkshop": "Mohr Group",
+                "tpWorkshopAddress": "07684 Billie Islands",
+                "tpLawyer": "Nikolaus, Casper and Kautzer",
+                "tpLawyerAddress": "7555 Reilly Station",
+                "tpClinic": "Erdman LLC",
+                "tpClinicAddress": "763 Hoyt Mall",
+                "tpInsurer": "Daugherty Inc",
+                "tpSurveyor": "Hagenes - Torphy",
+                "tpClaimSource": "Lawyer",
+                "giaReport": "Ergonomic Wooden Pizza",
+                "tpContactName": "Glen Gutmann",
+                "tpContactNRIC": "S429612A",
+                "tpContactAddress": "1975 Gleichner Forest",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "989",
+                "claimAmount": "88",
+                "dateOfAccident": "2022-07-27T08:23:25.815Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG416156",
+            "policyNo": "P592352",
+            "certificateNo": "175285",
+            "policyHolderName": "Miss Ethel Kunde",
+            "policyHolderNric": "S829113A",
+            "productCode": "a1d",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG410842A",
+                    "beginOffset": 11,
+                    "score": 0.91230123,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG410847A",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG416156",
+                    "score": 0.98123112,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email"
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "11:25:00",
+                    "score": 0.7681231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "11:22:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "07/07/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Flood",
+                    "score": 0.6791231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Side Swipe",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location A",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Location B",
+                            "score": 0.577985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Location C",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Nikolaus, Casper and Kautzer",
+                    "score": 0.901232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Nikolaus, Casper and Kauser",
+                        "score": 0.782123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Glen Gutmann",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S429612A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S429677A",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "1975 Gleichner Forest",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/71799725",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Edmund Jast",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Owner & Driver",
+                    "score": 0.87192312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Driver",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S414272",
+                    "score": 0.9123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S414227",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Lawyer",
+                    "score": 0.9012312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Taxis",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Mohr Group",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "07684 Billie Islands",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Erdman LLC",
+                    "score": 0.8912310,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "Hagenes - Torphy",
+                    "score": 0.912312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Daugherty Inc",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "989",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "88",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "2",
+            "validPolicyCoverage": "3"
+        },
+        "claimNo": "MT/10443048",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD290444A",
+            "accidentType": "Hit and run",
+            "accidentPlace": "Location B",
+            "countryOfAccident": "Outside Singapore",
+            "accidentTime": "2022-07-19T12:25:40Z",
+            "claimNo": "MT/10443048",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Delia Koelpin",
+                "tpClaimantNric": "S471523",
+                "tpClaimantType": "Passenger",
+                "tpDriverInjured": "2",
+                "tpInjuryType": "2",
+                "tpVehicleNo": "SG45260A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Alfredo Stamm",
+                "tpDriverNric": "S512639A",
+                "tpWorkshop": "Toy, Bechtelar and Hills",
+                "tpWorkshopAddress": "66620 Muller Walks",
+                "tpLawyer": "Donnelly, Raynor and Christiansen",
+                "tpLawyerAddress": "986 Cecelia Extensions",
+                "tpClinic": "Kessler, Streich and Feil",
+                "tpClinicAddress": "560 Walter Wall",
+                "tpInsurer": "Schuster - Dare",
+                "tpSurveyor": "Mitchell, Frami and Emard",
+                "tpClaimSource": "IDAC",
+                "giaReport": "Awesome Metal Chips",
+                "tpContactName": "Amelia Ebert",
+                "tpContactNRIC": "S664717A",
+                "tpContactAddress": "815 Farrell Course",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "239",
+                "claimAmount": "665",
+                "dateOfAccident": "2022-07-27T08:35:10.756Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG513688",
+            "policyNo": "P751661",
+            "certificateNo": "675062",
+            "policyHolderName": "Karla Hettinger",
+            "policyHolderNric": "S407561A",
+            "productCode": "u8h",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG45260A",
+                    "beginOffset": 11,
+                    "score": 0.7912312,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG410847A",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG45268A",
+                    "score": 0.2012312,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email"
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "08:25:00",
+                    "score": 0.7681231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "11:22:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "27/07/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Hit and run",
+                    "score": 0.91231232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.809182312,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Flood",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location B",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Location C",
+                        "score": 0.377985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Outside Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Singapore",
+                        "score": 0.8123123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Donnelly, Raynor and Christiansen",
+                    "score": 0.901232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Donnelly, Raynold and Christianser",
+                        "score": 0.782123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Amelia Ebert",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S664717A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S664711A",
+                        "score": 0.7646585881710053,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "815 Farrell Course",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/10443048",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Delia Koelpin",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Passenger",
+                    "score": 0.912312837,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Driver",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S471523",
+                    "score": 0.9123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S471522",
+                        "score": 0.7912312,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "IDAC",
+                    "score": 0.9012312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Lawyer",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "2",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Toy, Bechtelar and Hills",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "66620 Muller Walks",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Kessler, Streich and Feil",
+                    "score": 0.8912310,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "Mitchell, Frami and Emard",
+                    "score": 0.812321,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Schuster - Dare",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "239",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "665",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "1",
+            "validPolicyCoverage": "1"
+        },
+        "claimNo": "MT/46507499-001",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD118960A",
+            "accidentType": "Side Swipe",
+            "accidentPlace": "Location C",
+            "countryOfAccident": "Singapore",
+            "accidentTime": "2022-07-19T12:25:40Z",
+            "claimNo": "MT/46507499",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Sylvester Hermann",
+                "tpClaimantNric": "S560981",
+                "tpClaimantType": "Pedestrian",
+                "tpDriverInjured": "1",
+                "tpInjuryType": "3",
+                "tpVehicleNo": "SG755055A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Sharon Keeling",
+                "tpDriverNric": "S872104A",
+                "tpWorkshop": "O'Kon, Cruickshank and Goodwin",
+                "tpWorkshopAddress": "745 Rose Way",
+                "tpLawyer": "Kemmer Group",
+                "tpLawyerAddress": "99755 Jackeline Alley",
+                "tpClinic": "Moen, Morissette and Runolfsdottir",
+                "tpClinicAddress": "421 Henderson Dam",
+                "tpInsurer": "Kassulke - Torphy",
+                "tpSurveyor": "Hayes - McClure",
+                "tpClaimSource": "Internal Adjustment",
+                "giaReport": "Licensed Rubber Fish",
+                "tpContactName": "Mrs. Alfredo Ortiz",
+                "tpContactNRIC": "S192024A",
+                "tpContactAddress": "2299 Howell Ford",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "85",
+                "claimAmount": "817",
+                "dateOfAccident": "2022-07-27T08:57:54.283Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG131401",
+            "policyNo": "P513374",
+            "certificateNo": "131003",
+            "policyHolderName": "Mr. Latoya Mitchell",
+            "policyHolderNric": "S688081A",
+            "productCode": "5o8",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG755055A",
+                    "beginOffset": 11,
+                    "score": 0.98123123,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG755022A",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG131401",
+                    "score": 0.9812312,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email"
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "10:25:00",
+                    "score": 0.7681231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "11:22:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "26/07/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Side Swipe",
+                    "score": 0.91231232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.809182312,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Hit and Run",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location C",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Location B",
+                        "score": 0.377985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Outside Singapore",
+                        "score": 0.8123123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Kemmer Group",
+                    "score": 0.901232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Mrs. Alfredo Ortiz",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S192024A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S192084A",
+                        "score": 0.123123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "2299 Howell Ford",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/46507499",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Sylvester Hermann",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Pedestrian",
+                    "score": 0.912312837,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Passenger",
+                        "score": 0.7123123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S560981",
+                    "score": 0.9123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S560987",
+                        "score": 0.7912312,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Internal Adjustment",
+                    "score": 0.9012312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Lawyer",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "O'Kon, Cruickshank and Goodwin",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "745 Rose Way",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Moen, Morissette and Runolfsdottir",
+                    "score": 0.9912310,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "Hayes - McClure",
+                    "score": 0.989123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Kassulke - Torphy",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "85",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "817",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "2",
+            "validPolicyCoverage": "2"
+        },
+        "claimNo": "MT/85081227-001",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD740002A",
+            "accidentType": "Car Park",
+            "accidentPlace": "Location D",
+            "countryOfAccident": "Outside Singapore",
+            "accidentTime": "2022-07-19T12:25:40Z",
+            "claimNo": "MT/85081227",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Vivian Howell MD",
+                "tpClaimantNric": "S287058",
+                "tpClaimantType": "Pet",
+                "tpDriverInjured": "2",
+                "tpInjuryType": "4",
+                "tpVehicleNo": "SG714852A",
+                "privateHireTpVehicle": "1",
+                "tpDriver": "Boyd Champlin",
+                "tpDriverNric": "S729327A",
+                "tpWorkshop": "Ledner LLC",
+                "tpWorkshopAddress": "59307 Rowe Inlet",
+                "tpLawyer": "Lang and Sons",
+                "tpLawyerAddress": "7396 Helga Pass",
+                "tpClinic": "Baumbach Group",
+                "tpClinicAddress": "711 Destin Islands",
+                "tpInsurer": "Leuschke LLC",
+                "tpSurveyor": "White Inc",
+                "tpClaimSource": "Direct Claimant",
+                "giaReport": "Awesome Granite Gloves",
+                "tpContactName": "Jaime Emmerich",
+                "tpContactNRIC": "S372499A",
+                "tpContactAddress": "912 Heidenreich Loop",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "269",
+                "claimAmount": "611",
+                "dateOfAccident": "2022-07-27T09:46:39.452Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": [{
+            "vehicleNo": "SG599719",
+            "policyNo": "P887478",
+            "certificateNo": "218004",
+            "policyHolderName": "Roberta Schuppe",
+            "policyHolderNric": "S536449A",
+            "productCode": "8eq",
+            "coverType": "drivo CLASSIC"
+        }],
+        "nerData": {
+            "data": {
+                "email": {
+                    "type": "email",
+                    "source": "b60c4a2c-d453-4277-a2b9-a8eee4c6834c"
+                },
+                "pdf": {
+                    "type": "textract",
+                    "source": "SGD8273K gia report.pdf",
+                    "texts": [
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-1-text.txt",
+                        "/incomepoc/PRI-01/awsout/text/SGD8273K gia report-pdf-page-2-text.txt"
+                    ]
+                }
+            },
+            "lob": {
+                "tpVehicleNo": "SGD8273K",
+                "vehicleNo": "SGD8021K"
+            },
+            "entities": {
+                "tpVehicleNo": {
+                    "label": "VEHICLE_NUMBER_3RD_PARTY",
+                    "value": "SG714852A",
+                    "beginOffset": 11,
+                    "score": 0.98123123,
+                    "endOffset": 16,
+                    "data": "email",
+                    "alts": [{
+                        "value": "SG714812A",
+                        "score": 0.61231534536,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 1,
+                            "x": 390,
+                            "y": 490,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "oiVehicleNo": {
+                    "label": "VEHICLE_NUMBER_OWN_INSURED",
+                    "value": "SG599719",
+                    "score": 0.9812312,
+                    "beginOffset": 13,
+                    "endOffset": 21,
+                    "data": "email"
+                },
+                "claimantId": {
+                    "label": "ID_CLAIMANT",
+                    "value": "SXXXX319C",
+                    "score": 0.9630323648452759,
+                    "beginOffset": 8,
+                    "endOffset": 17,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 600,
+                        "width": 80,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "SXXXX464E",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentTime": {
+                    "label": "TIME_OF_ACCIDENT",
+                    "value": "11:25:00",
+                    "score": 0.7681231,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "11:22:00",
+                        "score": 0.577985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentDate": {
+                    "label": "DATE_OF_ACCIDENT",
+                    "value": "16/07/2022",
+                    "score": 0.9200942635536195,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "accidentType": {
+                    "label": "TYPE_OF_ACCIDENT",
+                    "value": "Car Park",
+                    "score": 0.91231232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                            "value": "Collided into Property",
+                            "score": 0.809182312,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        },
+                        {
+                            "value": "Hit and Run",
+                            "score": 0.377985763549805,
+                            "beginOffset": 1572,
+                            "endOffset": 1580,
+                            "data": "pdf",
+                            "position": {
+                                "pageNo": 2,
+                                "x": 390,
+                                "y": 1045,
+                                "width": 80,
+                                "height": 22
+                            }
+                        }
+                    ]
+                },
+                "accidentLoc": {
+                    "label": "LOCATION_OF_ACCIDENT",
+                    "value": "Location D",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Location B",
+                        "score": 0.377985763549805,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "accidentCountry": {
+                    "label": "COUNTRY_OF_ACCIDENT",
+                    "value": "Outside Singapore",
+                    "score": 0.9800942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Singapore",
+                        "score": 0.8123123,
+                        "beginOffset": 1572,
+                        "endOffset": 1580,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 1045,
+                            "width": 80,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpLawyer": {
+                    "label": "THIRD_PARTY_LAWYER",
+                    "value": "Lang and Sons",
+                    "score": 0.901232,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactName": {
+                    "label": "CONTACT_NAME",
+                    "value": "Jaime Emmerich",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "contactNRIC": {
+                    "label": "CONTACT_NRIC",
+                    "value": "S372499A",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S372400A",
+                        "score": 0.123123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "contactAddr": {
+                    "label": "CONTACT_ADDRESS",
+                    "value": "912 Heidenreich Loop",
+                    "score": 0.9700942635536194,
+                    "beginOffset": 1318,
+                    "endOffset": 1323,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 460,
+                        "y": 360,
+                        "width": 36,
+                        "height": 22
+                    }
+                },
+                "claimNo": {
+                    "label": "CLAIM_NO",
+                    "value": "MT/85081227",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimantName": {
+                    "label": "CLAIMANT_NAME",
+                    "value": "Vivian Howell MD",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClaimantType": {
+                    "label": "CLAIMANT_TYPE",
+                    "value": "Pet",
+                    "score": 0.912312837,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Pedestrian",
+                        "score": 0.7123123,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "tpClaimantNric": {
+                    "label": "CLAIMANT_NRIC",
+                    "value": "S287058",
+                    "score": 0.9123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "S287020",
+                        "score": 0.7912312,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "claimSource": {
+                    "label": "CLAIM_SOURCE",
+                    "value": "Direct Claimant",
+                    "score": 0.9012312,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    },
+                    "alts": [{
+                        "value": "Lawyer",
+                        "score": 0.46465858817100525,
+                        "beginOffset": 228,
+                        "endOffset": 247,
+                        "data": "pdf",
+                        "position": {
+                            "pageNo": 2,
+                            "x": 390,
+                            "y": 155,
+                            "width": 145,
+                            "height": 22
+                        }
+                    }]
+                },
+                "isTpDriverInjured": {
+                    "label": "DRIVER_INJURED",
+                    "value": "1",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshop": {
+                    "label": "TP_WORKSHOP",
+                    "value": "Ledner LLC",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpWorkshopAddr": {
+                    "label": "TP_WORKSHOP_ADDR",
+                    "value": "59307 Rowe Inlet",
+                    "score": 0.9981231,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpClinic": {
+                    "label": "TP_CLINIC",
+                    "value": "Baumbach Group",
+                    "score": 0.9912310,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpSurveyor": {
+                    "label": "TP_SURVEYOR",
+                    "value": "White Inc",
+                    "score": 0.989123123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "tpInsurer": {
+                    "label": "TP_INSURER",
+                    "value": "Leuschke LLC",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "akRefNo": {
+                    "label": "AK_REF_NO",
+                    "value": "269",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                },
+                "claimAmount": {
+                    "label": "CLAIM_AMOUNT",
+                    "value": "611",
+                    "score": 0.923123,
+                    "beginOffset": 1699,
+                    "endOffset": 1718,
+                    "data": "pdf",
+                    "position": {
+                        "pageNo": 1,
+                        "x": 390,
+                        "y": 613,
+                        "width": 145,
+                        "height": 22
+                    }
+                }
+            }
+        }
+    },
+    {
+        "status": {
+            "code": "0",
+            "message": "success"
+        },
+        "claimMatchSOABO": {
+            "existingClaimFile": "2",
+            "validPolicyCoverage": "1"
+        },
+        "claimNo": "MT/26794606",
+        "claimCaseSOABOs": [{
+            "extField10": "SHD112905A",
+            "accidentType": "Flood",
+            "accidentPlace": "Location C",
+            "countryOfAccident": "Singapore",
+            "accidentTime": "01012022 10:00:00",
+            "claimNo": "MT/26794606",
+            "claimInfoSOABO": {
+                "seqNo": "001",
+                "claimantName": "Carlton Christiansen",
+                "tpClaimantNric": "S742811",
+                "tpClaimantType": "Driver",
+                "tpDriverInjured": "1",
+                "tpInjuryType": "7",
+                "tpVehicleNo": "SG428207A",
+                "privateHireTpVehicle": "1",
+                "tpContactAddressPostCode": "",
+                "tpContactAddressUnitNo": "",
+                "akReferenceNo": "915",
+                "claimAmount": "299",
+                "dateOfAccident": "2022-08-03T03:23:05.525Z",
+                "timeOfAccident": "08:00:00"
+            }
+        }],
+        "policySOABOs": []
+    }
+
+
+]

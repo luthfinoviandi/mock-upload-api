@@ -1,0 +1,1680 @@
+{
+    "voList": [
+        {
+            "key": "1",
+            "value": "1st AUTOWORKS (Kaki Bkt)"
+        },
+        {
+            "key": "10",
+            "value": "AA AUTO (Eunos)"
+        },
+        {
+            "key": "100",
+            "value": "C&C KIA (Pandan)"
+        },
+        {
+            "key": "10001",
+            "value": "J & J AUTOMOTIVE PL (K/BUKIT)"
+        },
+        {
+            "key": "10041",
+            "value": "SOON HONG MOTOR WORKSHOP"
+        },
+        {
+            "key": "10061",
+            "value": "MCWELL VENTURES PTE LTD"
+        },
+        {
+            "key": "10081",
+            "value": "WAHYU AUTOMOTIVE (S/Ming)"
+        },
+        {
+            "key": "101",
+            "value": "CAR BEAUTY CTR KOON LEK (Eunos)"
+        },
+        {
+            "key": "10121",
+            "value": "TECK YUN CAR (Jalan Kayu)"
+        },
+        {
+            "key": "10161",
+            "value": "CARS INCORPORATION (Ubi)"
+        },
+        {
+            "key": "10181",
+            "value": "POH WORKSHOP (M'sia)"
+        },
+        {
+            "key": "102",
+            "value": "CAR CITY AUTO CTR (Tamp)"
+        },
+        {
+            "key": "10201",
+            "value": "YEW TEE AUTOMOBILE (Kaki Bkt)"
+        },
+        {
+            "key": "10221",
+            "value": "STK (Corporation)"
+        },
+        {
+            "key": "10241",
+            "value": "ADVANCE REPUBLIC (K/Bkt)"
+        },
+        {
+            "key": "1026",
+            "value": "1199 TRADING (P/Ris)"
+        },
+        {
+            "key": "10261",
+            "value": "GHC VEHICLES RENTAL & TRADING PTE LTD"
+        },
+        {
+            "key": "1027",
+            "value": "APEX MOTORING (S/Ming)"
+        },
+        {
+            "key": "1028",
+            "value": "A-STAR AUTOMOTIVE (AMK)"
+        },
+        {
+            "key": "10281",
+            "value": "ADVANCE REPUBLIC PTE LTD"
+        },
+        {
+            "key": "1029",
+            "value": "AUTO SG SERVICES (AMK)"
+        },
+        {
+            "key": "103",
+            "value": "CARFEELS (Sin Ming)"
+        },
+        {
+            "key": "1030",
+            "value": "CARZTECH INCORPORATION (Ubi)"
+        },
+        {
+            "key": "1031",
+            "value": "E-MOTOR (B/Merah)"
+        },
+        {
+            "key": "1032",
+            "value": "EXQUISITE MARQUES (Loyang)"
+        },
+        {
+            "key": "10321",
+            "value": "LEANG AUTOMOTIVE"
+        },
+        {
+            "key": "1033",
+            "value": "FOCUS AUTO PTE LTD (K/Bkt)"
+        },
+        {
+            "key": "1034",
+            "value": "HAN CAR REPAIRS (B/Merah)"
+        },
+        {
+            "key": "1035",
+            "value": "HL CAR CARE (Eunos)"
+        },
+        {
+            "key": "1036",
+            "value": "HL CYCLE PTE LTD (K/Bkt)"
+        },
+        {
+            "key": "10361",
+            "value": "CHIN TONG MOTOR (K/Bkt)"
+        },
+        {
+            "key": "1037",
+            "value": "K A AUTO SERVICES (K/Bkt)"
+        },
+        {
+            "key": "1038",
+            "value": "L. H. M. REPAIR WORKS (Tamp)"
+        },
+        {
+            "key": "10381",
+            "value": "TANALA AUTOMOTIVE CONSULTANCY"
+        },
+        {
+            "key": "1039",
+            "value": "MIRACLE WORKZ PTE LTD (Toh Guan)"
+        },
+        {
+            "key": "104",
+            "value": "CARFIELD MTR SVCS (Defu)"
+        },
+        {
+            "key": "1040",
+            "value": "PERFECT POWER PERF TUNING (K/Bkt)"
+        },
+        {
+            "key": "1041",
+            "value": "PLANET M/CYCLE SVC CTR (Ubi)"
+        },
+        {
+            "key": "1042",
+            "value": "PLATINUM AUTOMOBILE (K/Bkt)"
+        },
+        {
+            "key": "10421",
+            "value": "BIKE SPECIALIST TRADING"
+        },
+        {
+            "key": "1043",
+            "value": "SAN HUP LIAN MOTOR (Ubi)"
+        },
+        {
+            "key": "1044",
+            "value": "SANG MOTOR (Changi)"
+        },
+        {
+            "key": "10441",
+            "value": "MAN EXHAUST WORKS"
+        },
+        {
+            "key": "1045",
+            "value": "SIN MOTOR REPAIRS (S/Ming)"
+        },
+        {
+            "key": "1046",
+            "value": "SOON BODYWERKZ (Chia Ping)"
+        },
+        {
+            "key": "10461",
+            "value": "SBS TRANSIT LTD (Bk Batok)"
+        },
+        {
+            "key": "1047",
+            "value": "SOON HOCK AUTOMOTIVE (AMK)"
+        },
+        {
+            "key": "1048",
+            "value": "TAN SENG LEE MTRS WORKS (Jurong)"
+        },
+        {
+            "key": "10481",
+            "value": "D MOTORWERKZ PTE LTD"
+        },
+        {
+            "key": "1049",
+            "value": "TK CAR REPAIRS (S/Ming)"
+        },
+        {
+            "key": "105",
+            "value": "CARINO AUTO CENTRE (AMK)"
+        },
+        {
+            "key": "1050",
+            "value": "UNIVERSAL MOTOR (B/Merah)"
+        },
+        {
+            "key": "10501",
+            "value": "D MOTORWERKZ PTE. LTD. (Wdls)"
+        },
+        {
+            "key": "1051",
+            "value": "WING YAP MOTOR (Balestier)"
+        },
+        {
+            "key": "1052",
+            "value": "ZEN ECOLAB PTE LTD (Ubi)"
+        },
+        {
+            "key": "10521",
+            "value": "KOO AH WHAR (JALAN TUKANG)"
+        },
+        {
+            "key": "10541",
+            "value": "OPTIMA WERKZ (KUNG CHONG)"
+        },
+        {
+            "key": "10581",
+            "value": "AOTO PTE LTD"
+        },
+        {
+            "key": "106",
+            "value": "CARL MOTOR (Woodlands)"
+        },
+        {
+            "key": "10621",
+            "value": "RICHBURG AUTOMOTIVE (CHANGI)"
+        },
+        {
+            "key": "10641",
+            "value": "PRO-JEX V2D (K/Bkt)"
+        },
+        {
+            "key": "10681",
+            "value": "GRAFFITI GARAGE (Wdls)"
+        },
+        {
+            "key": "107",
+            "value": "CARPLUS AUTO (Sin Ming)"
+        },
+        {
+            "key": "10701",
+            "value": "CHOONG KOK AGENCY (Toh Guan)"
+        },
+        {
+            "key": "10721",
+            "value": "LEE TAT AUTO PARTS (Wdls)"
+        },
+        {
+            "key": "10741",
+            "value": "CARWAY ENTERPRISE"
+        },
+        {
+            "key": "10761",
+            "value": "LIM BOON KUI MOTOR (Ubi)"
+        },
+        {
+            "key": "108",
+            "value": "CARZIN GARAGE (Ubi Ave)"
+        },
+        {
+            "key": "10821",
+            "value": "SINLONG MOTOR SERVICES (BT BATOK)"
+        },
+        {
+            "key": "10861",
+            "value": "RODA BB MOTOR (MSIA)"
+        },
+        {
+            "key": "1087",
+            "value": "ANN AUTOMOTIVE (Chia Ping Rd)"
+        },
+        {
+            "key": "1088",
+            "value": "CAR BODY REPAIR (Bk Merah)"
+        },
+        {
+            "key": "10881",
+            "value": "MING HOW MOTOR (Toh Guan)"
+        },
+        {
+            "key": "1089",
+            "value": "CITY TYREAUTO (S/Ming)"
+        },
+        {
+            "key": "109",
+            "value": "CDGE (Braddell)"
+        },
+        {
+            "key": "1090",
+            "value": "INSURANCE'S AUTO (Bedok)"
+        },
+        {
+            "key": "10901",
+            "value": "SPEEDWAY MOTOR (B/Merah)"
+        },
+        {
+            "key": "1091",
+            "value": "JIN QUAN ENGINEERING (Jrong)"
+        },
+        {
+            "key": "1092",
+            "value": "JOE & STEVE S/PAINTING W/S (Ubi)"
+        },
+        {
+            "key": "10921",
+            "value": "SOON BODYWERKZ (Soon Lee)"
+        },
+        {
+            "key": "1093",
+            "value": "NEE HUAT AUTO SERVICES (K/Bkt)"
+        },
+        {
+            "key": "1094",
+            "value": "PLATINUM AUTOMOBILE (Jln Sultan)"
+        },
+        {
+            "key": "10941",
+            "value": "TUNE IN MOTOR.COM(Yishun)"
+        },
+        {
+            "key": "1095",
+            "value": "RENOSAN CONNECTION CONS. (Yishun)"
+        },
+        {
+            "key": "1096",
+            "value": "SAMWOH RESOURCES (S/Kadut)"
+        },
+        {
+            "key": "10961",
+            "value": "ACE AUTOLUTION PTE LTD"
+        },
+        {
+            "key": "1097",
+            "value": "SOON FAH COMPANY (Changi)"
+        },
+        {
+            "key": "1098",
+            "value": "TECK TIONG MOTOR WSHOP (Bdk)"
+        },
+        {
+            "key": "10981",
+            "value": "SBS TRANSIT LTD (Bedok)"
+        },
+        {
+            "key": "1099",
+            "value": "ZEAL AUTOMOTIVE (Turf City)"
+        },
+        {
+            "key": "11",
+            "value": "AABE SERVICES (AMK)"
+        },
+        {
+            "key": "110",
+            "value": "CDGE (Loyang)"
+        },
+        {
+            "key": "11001",
+            "value": "HONG AUTO SERVICES (EUNOS)"
+        },
+        {
+            "key": "1101",
+            "value": "1199 TRADING (Defu)"
+        },
+        {
+            "key": "1102",
+            "value": "CARSOUNDS PAINT WORKS (AMK)"
+        },
+        {
+            "key": "11021",
+            "value": "REPUBLIC AUTO (Pandan)"
+        },
+        {
+            "key": "1103",
+            "value": "FRIENDSHIP MOTOR CO (Bt Merah)"
+        },
+        {
+            "key": "1104",
+            "value": "GUAN LEE SENG MOTOR (Pioneer)"
+        },
+        {
+            "key": "1105",
+            "value": "HONG LEONG CORP HOLDINGS (PLebar)"
+        },
+        {
+            "key": "1106",
+            "value": "MASSIVE TRADING & AUTO (Hgang)"
+        },
+        {
+            "key": "11061",
+            "value": "CAR LABORATORIES (Bk Batok)"
+        },
+        {
+            "key": "1107",
+            "value": "MOTORICARZ GARAGE (Ubi)"
+        },
+        {
+            "key": "1108",
+            "value": "SHIELD AUTO (Kim Chuan)"
+        },
+        {
+            "key": "11081",
+            "value": "ALTIMATE AUTO & ACCESSORIES (Bk Batok)"
+        },
+        {
+            "key": "1109",
+            "value": "WUI HONG ENTERPRISES (Eunos)"
+        },
+        {
+            "key": "111",
+            "value": "CDGE (Pandan)"
+        },
+        {
+            "key": "1110",
+            "value": "YEW SENG AUTOMOTIVE (S/Ming)"
+        },
+        {
+            "key": "11101",
+            "value": "TWIN WHEELS AUTO (S/Ming)"
+        },
+        {
+            "key": "11121",
+            "value": "HIAP AIK TRADING (Macpherson)"
+        },
+        {
+            "key": "1114",
+            "value": "AUTO RECOVERY HUB PTE LTD"
+        },
+        {
+            "key": "11141",
+            "value": "ANYTHING'S SERVICES"
+        },
+        {
+            "key": "1115",
+            "value": "CHUAN HUAT MOTOR (Jln Besar)"
+        },
+        {
+            "key": "1116",
+            "value": "EROFIA MOTOR WORKSHOP (K/Bkt)"
+        },
+        {
+            "key": "11161",
+            "value": "HUA SOON WELDING & SPRAYING WORKSHOP"
+        },
+        {
+            "key": "1117",
+            "value": "FONG MOTORS (K/Bkt)"
+        },
+        {
+            "key": "1118",
+            "value": "GT MOTOR REPAIR (SMing)"
+        },
+        {
+            "key": "1119",
+            "value": "HOCK CHEONG AUTOMEC (ECoast)"
+        },
+        {
+            "key": "112",
+            "value": "CDGE (Sg Kadut)"
+        },
+        {
+            "key": "1120",
+            "value": "KAM MOTOR SERVICE (Tjg Katong)"
+        },
+        {
+            "key": "11201",
+            "value": "SBS TRANSIT LTD (Soon Lee)"
+        },
+        {
+            "key": "1121",
+            "value": "LEE SENG LEONG MTR SVC (BMerah)"
+        },
+        {
+            "key": "1122",
+            "value": "TECK HONG AUTO WORK SVC (SMing)"
+        },
+        {
+            "key": "11221",
+            "value": "AWC ENTERPRISE (Defu)"
+        },
+        {
+            "key": "11241",
+            "value": "KIM HENG HUAT MOTOR"
+        },
+        {
+            "key": "1125",
+            "value": "J. L. CAR AUTO SERVICE (Kranji)"
+        },
+        {
+            "key": "1126",
+            "value": "ONE MOTOR PERFORMANCE (Eunos)"
+        },
+        {
+            "key": "1127",
+            "value": "RALLY PITSTOP (Tagore)"
+        },
+        {
+            "key": "1128",
+            "value": "SUNG BENG AUTO (Eunos)"
+        },
+        {
+            "key": "1129",
+            "value": "TAZ GARAGE (AMK)"
+        },
+        {
+            "key": "113",
+            "value": "CDGE (Ubi Rd)"
+        },
+        {
+            "key": "1130",
+            "value": "WESTPOINT TRANSIT (Tuas)"
+        },
+        {
+            "key": "1135",
+            "value": "BENG HAI MOTOR SERVICE (Bedok)"
+        },
+        {
+            "key": "1136",
+            "value": "BROTHER MOTORS (Yishun)"
+        },
+        {
+            "key": "1137",
+            "value": "CAR LIFE AUTO ENG SVCS (Li Hwan)"
+        },
+        {
+            "key": "1138",
+            "value": "GLOBAL MTR (Paya Ubi)"
+        },
+        {
+            "key": "11381",
+            "value": "a123456789b123456789c123456789d123456789e123456789f123456789"
+        },
+        {
+            "key": "1139",
+            "value": "H.H. AUTO (K/Bkt)"
+        },
+        {
+            "key": "114",
+            "value": "CHAMPION AUTO AIR-COND (Rvale)"
+        },
+        {
+            "key": "1140",
+            "value": "JIN YUAN MTR TRADING (Tmn Uni,JB)"
+        },
+        {
+            "key": "11401",
+            "value": "1234567890B234567890C123456789D123456789E132456789F12345679G"
+        },
+        {
+            "key": "1141",
+            "value": "KOH KOCK LEONG E/PRISE (Tuas)"
+        },
+        {
+            "key": "1142",
+            "value": "LIAN HO HUP KEE SPRAY P (BMerah)"
+        },
+        {
+            "key": "11421",
+            "value": "xcarstest"
+        },
+        {
+            "key": "1143",
+            "value": "M S PANEL BEATING (Eunos)"
+        },
+        {
+            "key": "1144",
+            "value": "MOTORVIVA (Tuas)"
+        },
+        {
+            "key": "11441",
+            "value": "VERTEURO MOTORS(Ubi)"
+        },
+        {
+            "key": "1145",
+            "value": "SIN HUP LEE SERVICE CO (BMerah)"
+        },
+        {
+            "key": "1146",
+            "value": "YEE KEONG MTR (Penjuru)"
+        },
+        {
+            "key": "11461",
+            "value": "VERTEX EURO MOTORS (Ubi)"
+        },
+        {
+            "key": "11481",
+            "value": "v11305  TPWS"
+        },
+        {
+            "key": "11482",
+            "value": "v11305 TPW2"
+        },
+        {
+            "key": "115",
+            "value": "CHAMPION MOTOR (Pandan)"
+        },
+        {
+            "key": "1152",
+            "value": "BOON SIONG VEHICLE SVC (K/Bkt)"
+        },
+        {
+            "key": "1153",
+            "value": "FASTWHEEL AUTO SVC (Changi)"
+        },
+        {
+            "key": "1154",
+            "value": "HALLAND MOTOR SERVICE (KBkt)"
+        },
+        {
+            "key": "11541",
+            "value": "Strides Automotive (60 Wdls)"
+        },
+        {
+            "key": "1155",
+            "value": "HUP HENG MUD-GUARD RADIATOR SVCS (K/Bkt)"
+        },
+        {
+            "key": "1156",
+            "value": "JAS AUTO (Ubi)"
+        },
+        {
+            "key": "1157",
+            "value": "JOGH ENTERPRISE (S/MING)"
+        },
+        {
+            "key": "1158",
+            "value": "LEONG AUTO TRAD & TRANSPORT SVCS (CCK)"
+        },
+        {
+            "key": "1159",
+            "value": "NEWCASTLE AUTO TRADING"
+        },
+        {
+            "key": "116",
+            "value": "CHANG HENG MOTOR (S/Ming)"
+        },
+        {
+            "key": "1160",
+            "value": "POH KONG MOTOR REPAIRER (B/Merah)"
+        },
+        {
+            "key": "1161",
+            "value": "SENG MOTOR HUNG (B/Merah)"
+        },
+        {
+            "key": "1162",
+            "value": "TARGET AUTO PTE LTD (S/Ming)"
+        },
+        {
+            "key": "1163",
+            "value": "CARZTECH INCORPORATION (KimChuan)"
+        },
+        {
+            "key": "117",
+            "value": "CHARN'S CUSTOMCRAFT (BMerah)"
+        },
+        {
+            "key": "1178",
+            "value": "AHM PERFORMANCE (K/Bkt)"
+        },
+        {
+            "key": "1179",
+            "value": "ALDRIN AUTOMOTIVE (K/Bkt)"
+        },
+        {
+            "key": "118",
+            "value": "CHENG AUTO E/PRISE (SMing)"
+        },
+        {
+            "key": "1180",
+            "value": "BAN HONG GEOK KEE (AMK)"
+        },
+        {
+            "key": "1181",
+            "value": "GRADEONE AUTO (SMing)"
+        },
+        {
+            "key": "1182",
+            "value": "MITRA AUTO TRADING (Eunos)"
+        },
+        {
+            "key": "1183",
+            "value": "MONSTER GARAGE (Ubi)"
+        },
+        {
+            "key": "1184",
+            "value": "PRIME MOTOR WORKS (K/Bkt)"
+        },
+        {
+            "key": "1185",
+            "value": "SONG HENG LEE SPRAY PAINTER (Kranji)"
+        },
+        {
+            "key": "1186",
+            "value": "Y S AUTOMOBILE SERVICE (Defu)"
+        },
+        {
+            "key": "1187",
+            "value": "YONG SENG MOTOR (SMing)"
+        },
+        {
+            "key": "119",
+            "value": "CHENG HOE MOTOR (Yishun)"
+        },
+        {
+            "key": "1195",
+            "value": "A S PHOON PTE LTD (Toh Guan)"
+        },
+        {
+            "key": "1196",
+            "value": "AIS MOTOR (Eunos)"
+        },
+        {
+            "key": "1197",
+            "value": "BCC AUTOMOTIVE (SMing)"
+        },
+        {
+            "key": "1198",
+            "value": "GARAGE IR (SMing)"
+        },
+        {
+            "key": "1199",
+            "value": "JEMENTAH MOTOR WORKS (Defu)"
+        },
+        {
+            "key": "12",
+            "value": "ACEPAC AUTO (Sin Ming)"
+        },
+        {
+            "key": "120",
+            "value": "CHENG MOTOR WORK (Eunos)"
+        },
+        {
+            "key": "1200",
+            "value": "LIM SIANG CHOW AUTO SVC (SMing)"
+        },
+        {
+            "key": "1201",
+            "value": "LYS ENGINEERING (Jurong)"
+        },
+        {
+            "key": "1202",
+            "value": "MOTOR FACTOR (Ubi)"
+        },
+        {
+            "key": "1203",
+            "value": "SECTION AUTO SVCS (Lok Yang)"
+        },
+        {
+            "key": "1204",
+            "value": "STARTS AUTO ENG. (BBatok)"
+        },
+        {
+            "key": "1205",
+            "value": "TRIPLE-T AUTOMOBILE (SMing)"
+        },
+        {
+            "key": "1206",
+            "value": "YP MOTORSPORTS TRADING (Tamp)"
+        },
+        {
+            "key": "121",
+            "value": "CHEOK MOTOR (Ubi Rd)"
+        },
+        {
+            "key": "1212",
+            "value": "ACCORD AUTO SERVICES (AMK)"
+        },
+        {
+            "key": "1213",
+            "value": "ALBERT MOTOR SUPPLY (B/Merah)"
+        },
+        {
+            "key": "1214",
+            "value": "CHEE MENG MOTOR (S/Ming)"
+        },
+        {
+            "key": "1215",
+            "value": "CHIN HING SPRAY PAINTING (Eunos)"
+        },
+        {
+            "key": "1216",
+            "value": "CROWN ASIA BUS BUILDER (Sg Kadut)"
+        },
+        {
+            "key": "1217",
+            "value": "LEK CHUAN AUTOCRAFT (Piccadilly)"
+        },
+        {
+            "key": "1218",
+            "value": "LIAN HUP BROTHERS (W'lands)"
+        },
+        {
+            "key": "1219",
+            "value": "REVO PERFORMANCE (K/Bkt)"
+        },
+        {
+            "key": "122",
+            "value": "CHEONG AUTO (Queensway)"
+        },
+        {
+            "key": "1220",
+            "value": "Z-ONE AUTOMOTIVE (Eunos)"
+        },
+        {
+            "key": "1225",
+            "value": "AMBRA ENTERPRISES TRANSPORT (AMK)"
+        },
+        {
+            "key": "1226",
+            "value": "AUTO TECH SERVICES CTR (Penjuru)"
+        },
+        {
+            "key": "1227",
+            "value": "BIKE DYNAMIC CENTRE (Defu)"
+        },
+        {
+            "key": "1228",
+            "value": "BIKE HARBOUR (Eunos)"
+        },
+        {
+            "key": "1229",
+            "value": "BLUWEL AUTOMOTIVE SVC (K/Bkt)"
+        },
+        {
+            "key": "123",
+            "value": "CHEONG CHEONG MOTOR (AMK)"
+        },
+        {
+            "key": "1230",
+            "value": "CHENG MOTOR WORK (K/Bkt)"
+        },
+        {
+            "key": "1231",
+            "value": "CHOON HOCK MOTOR (S/Ming)"
+        },
+        {
+            "key": "1232",
+            "value": "DU LEXBUILD INTERNATIONAL (Wdls)"
+        },
+        {
+            "key": "1233",
+            "value": "HENG MOTOR (Toh Guan)"
+        },
+        {
+            "key": "1234",
+            "value": "HOCK MOTORS (K/Bkt)"
+        },
+        {
+            "key": "1235",
+            "value": "KIM KOCK MOTOR (Jurong)"
+        },
+        {
+            "key": "1236",
+            "value": "KWEE SENG MOTOR (AMK)"
+        },
+        {
+            "key": "1237",
+            "value": "SAT MOTORS (S/Ming)"
+        },
+        {
+            "key": "1238",
+            "value": "Y2K AUDIO DESIGN (S/Ming)"
+        },
+        {
+            "key": "124",
+            "value": "CHEW GOON MOTOR (AMK)"
+        },
+        {
+            "key": "1244",
+            "value": "CARZ@HOME (Ubi)"
+        },
+        {
+            "key": "1249",
+            "value": "AUTO-3 SOLUTION (K/Bkt)"
+        },
+        {
+            "key": "125",
+            "value": "CHIANG LEONG MOTOR (AMK)"
+        },
+        {
+            "key": "1250",
+            "value": "RACETECH PTE LTD (S/Ming)"
+        },
+        {
+            "key": "1254",
+            "value": "CHNG BROTHER MTR SVCS (Eunos)"
+        },
+        {
+            "key": "1255",
+            "value": "J&H MOTOR (AMK)"
+        },
+        {
+            "key": "1256",
+            "value": "KIM SOON LEE (Bdk)"
+        },
+        {
+            "key": "1257",
+            "value": "PERFECTION MCYCLE (Kaki Bkt)"
+        },
+        {
+            "key": "1258",
+            "value": "SPEEDY MOTORCYCLE SVC CTR (AMK)"
+        },
+        {
+            "key": "1259",
+            "value": "SPORTING MOTORS (Kaki Bkt)"
+        },
+        {
+            "key": "126",
+            "value": "CHIN CHUAN GARAGE (Defu)"
+        },
+        {
+            "key": "1261",
+            "value": "ALFA CAR CARE CENTRE (BMerah)"
+        },
+        {
+            "key": "1262",
+            "value": "DAWN ENGINEERING WORKS (Jln Papan)"
+        },
+        {
+            "key": "1263",
+            "value": "FOOK CHOON AUTO TRADING (Defu)"
+        },
+        {
+            "key": "1264",
+            "value": "HOE SENG HUAT MTR WORKS (BMerah)"
+        },
+        {
+            "key": "1265",
+            "value": "KENG SENG CO (AMK)"
+        },
+        {
+            "key": "1266",
+            "value": "MOTOR SPORT (Ubi)"
+        },
+        {
+            "key": "1267",
+            "value": "SAM YICK LIAN (K/Bkt)"
+        },
+        {
+            "key": "1268",
+            "value": "SOON SENG CO (S/Ming)"
+        },
+        {
+            "key": "1269",
+            "value": "SPEEDWAY MOTOR (Toh Guan)"
+        },
+        {
+            "key": "127",
+            "value": "CHIN MENG MOTORS (K.Bkt)"
+        },
+        {
+            "key": "1274",
+            "value": "123 BIKE TRADING (Kallang)"
+        },
+        {
+            "key": "1275",
+            "value": "ALMIGHTY AUTOMOTIVE (S'goon)"
+        },
+        {
+            "key": "1276",
+            "value": "HONG HUAT MOTOR SERVICES (Sming)"
+        },
+        {
+            "key": "1277",
+            "value": "SENG YEOW MOTOR WORKS (Defu)"
+        },
+        {
+            "key": "1278",
+            "value": "SOON HUAT PAINT SPRAYING CO (S/Ming)"
+        },
+        {
+            "key": "1279",
+            "value": "CHAI FATT MOTOR TRADING (YCK)"
+        },
+        {
+            "key": "128",
+            "value": "CHIN YEW SENG AUTO. (Defu)"
+        },
+        {
+            "key": "1280",
+            "value": "CITY AUTO PTE LTD (S/Ming)   "
+        },
+        {
+            "key": "1281",
+            "value": "FONG HUAT AIR-CON & WIRING SERVICE (AMK)"
+        },
+        {
+            "key": "1282",
+            "value": "PS AUTO SERVICE (K/Bkt)"
+        },
+        {
+            "key": "1283",
+            "value": "SS MOTORING (S'goon)"
+        },
+        {
+            "key": "1284",
+            "value": "TAN MIN TIE MTR (K/Bkt)"
+        },
+        {
+            "key": "1287",
+            "value": "2P AUTO SOLUTION (S/Ming)"
+        },
+        {
+            "key": "1288",
+            "value": "ACE CUSTOM (Defu)"
+        },
+        {
+            "key": "1289",
+            "value": "AUTOFRIEND SERVICES (Jurong)"
+        },
+        {
+            "key": "129",
+            "value": "CHING E/PRISE (C.ChuKang)"
+        },
+        {
+            "key": "1290",
+            "value": "DIRT WHEEL MOTOR TRAD (Tamp)"
+        },
+        {
+            "key": "1291",
+            "value": "HOCK CHEONG AUTOMEC (Yishun)"
+        },
+        {
+            "key": "1292",
+            "value": "HUA HO TRADING (Defu)"
+        },
+        {
+            "key": "1293",
+            "value": "I-MOTORING (B/Merah)"
+        },
+        {
+            "key": "1294",
+            "value": "KENG HOCK MOTOR (Geylang)"
+        },
+        {
+            "key": "1295",
+            "value": "SMART AUTOMOBILE PTE LTD (BB)"
+        },
+        {
+            "key": "13",
+            "value": "ADSM (Kim Chuan Drive)"
+        },
+        {
+            "key": "130",
+            "value": "CHING MTR REPAIR (SMing)"
+        },
+        {
+            "key": "1303",
+            "value": "ASTON MARTIN LAGONDA (SEA)(Tuas)"
+        },
+        {
+            "key": "1304",
+            "value": "CHUAN HUAT MOTOR (AMK)"
+        },
+        {
+            "key": "1305",
+            "value": "J'S MOTORWORKS (Bkt Merah)"
+        },
+        {
+            "key": "1306",
+            "value": "KENG SOON AUTO PTE LTD (Tamp)"
+        },
+        {
+            "key": "1307",
+            "value": "K'S PERFORMANCE & SVCS (Yunnan Dr)"
+        },
+        {
+            "key": "1308",
+            "value": "LSS MOTOR SERVICE (Masai, Johor)"
+        },
+        {
+            "key": "1309",
+            "value": "MCS AUTO (S/Ming)"
+        },
+        {
+            "key": "131",
+            "value": "CHONG YEOW CONSTR (Maude)"
+        },
+        {
+            "key": "1310",
+            "value": "MOTOMECH SERVICE CTR (Eunos)"
+        },
+        {
+            "key": "1311",
+            "value": "MUN JIN MOTOR SERVICES (Kim Chuan)"
+        },
+        {
+            "key": "1312",
+            "value": "NAN WAH MOTOR CO (Lavender)"
+        },
+        {
+            "key": "1313",
+            "value": "NEO R AND R (Macpherson)"
+        },
+        {
+            "key": "1314",
+            "value": "NEW UNION COMPANY (Tamp)"
+        },
+        {
+            "key": "1315",
+            "value": "TCG AUTOMOTIVE LLP (Eunos)"
+        },
+        {
+            "key": "1316",
+            "value": "XCARS PTE LTD (Tai Seng)"
+        },
+        {
+            "key": "132",
+            "value": "CHOON HOCK AUTOCARE (S/Ming)"
+        },
+        {
+            "key": "1323",
+            "value": "ATAN MOTORING SUPPLY (Ubi Rd)"
+        },
+        {
+            "key": "1324",
+            "value": "BAK CHWEE AUTOMOBILE SVCS (Tamp)"
+        },
+        {
+            "key": "1325",
+            "value": "CMK MOTOR SERVICE REPAIR (SMing)"
+        },
+        {
+            "key": "1326",
+            "value": "HONG POH AUTO SERVICE (Eunos)"
+        },
+        {
+            "key": "1327",
+            "value": "JLA HWEE VEHICLE SERVICES (Defu)"
+        },
+        {
+            "key": "1328",
+            "value": "LI-SENG MOTOR TRADING (Defu)"
+        },
+        {
+            "key": "1329",
+            "value": "MOTOGARD SERVICE CENTRE (Tamp)"
+        },
+        {
+            "key": "133",
+            "value": "CHOONG KOK AGENCY (Bk Batok)"
+        },
+        {
+            "key": "1330",
+            "value": "RC AUTOMOTIVE (SMing)"
+        },
+        {
+            "key": "1333",
+            "value": "CHEK KONG MOTOR CO (Wdls)"
+        },
+        {
+            "key": "1334",
+            "value": "MANWELL AUTO (K/Bkt)"
+        },
+        {
+            "key": "1335",
+            "value": "ONE STOP AUTO (Loyang)"
+        },
+        {
+            "key": "1336",
+            "value": "SUNBURST MOTORCYCLE PDTS (AMK)"
+        },
+        {
+            "key": "1337",
+            "value": "YUH LOONG MOTOR CO PTE LTD (YCK)"
+        },
+        {
+            "key": "1338",
+            "value": "ZHI LIANG SPRAY P. SVCS (AMK)"
+        },
+        {
+            "key": "1339",
+            "value": "Z-ONE AUTOMOTIVE (K/Bkt)"
+        },
+        {
+            "key": "134",
+            "value": "CHOON'S MOTOR WORKS (AMK)"
+        },
+        {
+            "key": "1340",
+            "value": "FUNMASTERS PROMOTION (Sming)"
+        },
+        {
+            "key": "1341",
+            "value": "KOMOCO MOTORCYCLES (Alexandra)"
+        },
+        {
+            "key": "1342",
+            "value": "LONGLIFE AUTO SERVICES (Kranji)"
+        },
+        {
+            "key": "1343",
+            "value": "MAC MOTOR SPRAY P (Macpherson)"
+        },
+        {
+            "key": "1344",
+            "value": "TECK KENG MOTOR (Pioneer Rd)"
+        },
+        {
+            "key": "1345",
+            "value": "TURBO 9000 MOTOR TRAD (WCoast)"
+        },
+        {
+            "key": "1346",
+            "value": "LIAN HENG MOTOR (M'sia)"
+        },
+        {
+            "key": "1347",
+            "value": "TOH MOTOR ENTERPRISE (SMing)"
+        },
+        {
+            "key": "135",
+            "value": "CHOP LIAN SENG (Eunos)"
+        },
+        {
+            "key": "1355",
+            "value": "CARS INCORPORATION (Kim Chuan)"
+        },
+        {
+            "key": "1356",
+            "value": "CENTRAL AUTO PTE LTD (K/Bkt)"
+        },
+        {
+            "key": "1357",
+            "value": "CHIP SOON AUTO SUPPLY CO (Tamp)"
+        },
+        {
+            "key": "1358",
+            "value": "CUSTOHEAT INDUSTRIAL (Kallang)"
+        },
+        {
+            "key": "1359",
+            "value": "HONG SENG SPRAY PAINTING (SMing)"
+        },
+        {
+            "key": "136",
+            "value": "CHRYSLER JEEP AUTO. (L'Kee)"
+        },
+        {
+            "key": "1360",
+            "value": "LEONG AUTO TRADING (SMing)"
+        },
+        {
+            "key": "1361",
+            "value": "MUNICH AUTOMOBILES (Teban)"
+        },
+        {
+            "key": "1362",
+            "value": "OBS GARAGE (Kim Chuan)"
+        },
+        {
+            "key": "1363",
+            "value": "R C AUTO (SMing)"
+        },
+        {
+            "key": "1364",
+            "value": "SOON KOK MOTOR (Sg Kadut)"
+        },
+        {
+            "key": "1365",
+            "value": "SPEED ENGINEERING (AMK)"
+        },
+        {
+            "key": "1366",
+            "value": "STILL RACING INT. (Jln Ampas)"
+        },
+        {
+            "key": "1368",
+            "value": "AH CHANG MOTOR SVC CTR (AMK)"
+        },
+        {
+            "key": "1369",
+            "value": "LIM BAN HUAT MOTOR CO (B/Merah)"
+        },
+        {
+            "key": "137",
+            "value": "CHUA CHU KANG MCYCLE (Jrg)"
+        },
+        {
+            "key": "1370",
+            "value": "SAM HUP SIN MOTOR (Eunos)"
+        },
+        {
+            "key": "1371",
+            "value": "SK AUTOMOBILE HUB (T/Merah)"
+        },
+        {
+            "key": "1372",
+            "value": "TRIANGLE AUTO (Tuas)"
+        },
+        {
+            "key": "1375",
+            "value": "AUTO ADSM (Kim Chuan)"
+        },
+        {
+            "key": "1376",
+            "value": "E TUCK WSHOP (K/Bkt)"
+        },
+        {
+            "key": "1377",
+            "value": "G A AUTO (Bedok)"
+        },
+        {
+            "key": "1378",
+            "value": "HME MOTORSPORTS (Tamp)"
+        },
+        {
+            "key": "1379",
+            "value": "INNO AUTO (Defu Lane)"
+        },
+        {
+            "key": "138",
+            "value": "CHUAN HO AUTO SVC (SMing)"
+        },
+        {
+            "key": "1380",
+            "value": "JJ MEGA AUTO (Skudai)"
+        },
+        {
+            "key": "1381",
+            "value": "LEE HUAT COMPANY (Upp Bt/Timah)"
+        },
+        {
+            "key": "1382",
+            "value": "LIAN CHIN HENG MTR (Wdls)"
+        },
+        {
+            "key": "1383",
+            "value": "PHUTURE MOTORS (Kim Chuan)"
+        },
+        {
+            "key": "1384",
+            "value": "REV POWERED (B/Merah)"
+        },
+        {
+            "key": "1385",
+            "value": "RONG SHENG AUTO ENG (Jln Tukang)"
+        },
+        {
+            "key": "1386",
+            "value": "SOON MEI VEHICLES SVC (Defu Lane)"
+        },
+        {
+            "key": "139",
+            "value": "CHUNNI MOTOR CARE PTE LTD (AMK)"
+        },
+        {
+            "key": "1395",
+            "value": "A S AUTO SERVICE (K/Bkt)"
+        },
+        {
+            "key": "1396",
+            "value": "AUTOMOBILE HUB ENTERPRISE (Ubi)"
+        },
+        {
+            "key": "1397",
+            "value": "BOON KIM & CO (Defu)"
+        },
+        {
+            "key": "1398",
+            "value": "DAS AUTO & AIRCON SVCS (Pioneer)"
+        },
+        {
+            "key": "1399",
+            "value": "EUROSPORTS AUTO (Teban)"
+        },
+        {
+            "key": "14",
+            "value": "AESOP AUTOMOTIVE (AMK)"
+        },
+        {
+            "key": "140",
+            "value": "CITY AUTO TESTING (SMing)"
+        },
+        {
+            "key": "1400",
+            "value": "ISLAND CONCRETE (Sg Kadut)"
+        },
+        {
+            "key": "1401",
+            "value": "KING'S MOTOR (K/Bkt)"
+        },
+        {
+            "key": "1402",
+            "value": "LBA AUTOMOTIVE (K/Bkt)"
+        },
+        {
+            "key": "1403",
+            "value": "LEE & SOON PAINTING WORKS (Krj)"
+        },
+        {
+            "key": "1404",
+            "value": "LS AUTO SERVICE (Eunos)"
+        },
+        {
+            "key": "1405",
+            "value": "MENG SHEN AUTO ENTERPRISE (Krj)"
+        },
+        {
+            "key": "1406",
+            "value": "STAMFORD TYRES INTERNATIONAL (Jrg)"
+        },
+        {
+            "key": "1407",
+            "value": "SUN BENG AUTO (Circuit)"
+        },
+        {
+            "key": "1408",
+            "value": "WEI LONG ELECTRONICS ENG. (K/Bkt)"
+        },
+        {
+            "key": "141",
+            "value": "CITY MTR SPECIALIST (AMK)"
+        },
+        {
+            "key": "1417",
+            "value": "UK COOL PTE LTD (B/Merah)"
+        },
+        {
+            "key": "1418",
+            "value": "VOLKSWAGEN GRP (Tuas)"
+        },
+        {
+            "key": "1419",
+            "value": "WOODLANDS TRANSPORT (Chia Ping Rd)"
+        },
+        {
+            "key": "142",
+            "value": "CITY TYREAUTO (Kallang)"
+        },
+        {
+            "key": "1420",
+            "value": "WOODLANDS TRANSPORT (Gul Circle)"
+        },
+        {
+            "key": "1421",
+            "value": "NEO & CHEONG ENG. SVCS (Yishun)"
+        },
+        {
+            "key": "1427",
+            "value": "HAFEI AUTOMOBILE SINGAPORE (Ubi)"
+        },
+        {
+            "key": "1428",
+            "value": "CENTRE LINE CAR SPRAY P. (Eunos)"
+        },
+        {
+            "key": "1429",
+            "value": "SYSTEM MOTOR TRADING (BMerah)"
+        },
+        {
+            "key": "143",
+            "value": "CL GARAGE (Ang Mo Kio)"
+        },
+        {
+            "key": "1430",
+            "value": "JIM SIEW PAINT SPRAYING (M'sia)"
+        },
+        {
+            "key": "1437",
+            "value": "ACA AUTO ENG & TRADING (Toh Guan)"
+        },
+        {
+            "key": "1438",
+            "value": "BOON FATT MOTOR REPAIR WORKS (K/Bkt)"
+        },
+        {
+            "key": "1439",
+            "value": "EEVOL (AMK)"
+        },
+        {
+            "key": "144",
+            "value": "CDGE (AMK)"
+        },
+        {
+            "key": "1440",
+            "value": "GUAN HOE CO (M) PTE LTD (K/Bkt)"
+        },
+        {
+            "key": "1441",
+            "value": "JC 7221 TRADING (Defu)"
+        },
+        {
+            "key": "1442",
+            "value": "K S WORKSHOP E/PRISE (Ulu Tiram, JB)"
+        },
+        {
+            "key": "1443",
+            "value": "PHUA SPRAY PAINTING (AMK)"
+        },
+        {
+            "key": "1444",
+            "value": "POWER WHEEL MOTOR BIKE (Tamp)"
+        },
+        {
+            "key": "1445",
+            "value": "SUPERIOR CYCLE CENTRE (T/Payoh)"
+        },
+        {
+            "key": "1449",
+            "value": "DYNASTY CAR-CARE TRADERS (B/Merah)"
+        },
+        {
+            "key": "145",
+            "value": "COMPLETE VMS (Sin Ming)"
+        },
+        {
+            "key": "1450",
+            "value": "KWANG HWEE CAR RPR (K/Bkt)"
+        },
+        {
+            "key": "1451",
+            "value": "MYCAR AUTO SERVICES (AMK)"
+        },
+        {
+            "key": "1452",
+            "value": "SING HONG & COMPANY (Jln Besar)"
+        },
+        {
+            "key": "1457",
+            "value": "AUTO FORCE SERVICE CTR (S/Ming)"
+        },
+        {
+            "key": "1458",
+            "value": "CHIN CHUAN GARAGE (Ubi)"
+        },
+        {
+            "key": "1459",
+            "value": "ELITE AUTO SALOON (S/Ming)"
+        },
+        {
+            "key": "146",
+            "value": "CONCEPT SERVICES (K/Bkt)"
+        },
+        {
+            "key": "1460",
+            "value": "EMPIRE AUTO WERKZ (AMK)"
+        },
+        {
+            "key": "1461",
+            "value": "FOOK HENG MOTOR SERVICE (Sg Kadut)"
+        },
+        {
+            "key": "1462",
+            "value": "K & T ACCESSORY TRADING (Ubi)"
+        },
+        {
+            "key": "1463",
+            "value": "MOTOR POINT TRADING (Jln Mas Puteh)"
+        },
+        {
+            "key": "1464",
+            "value": "SECTION AUTOMOTIVE SERVICES (Benoi)"
+        },
+        {
+            "key": "147",
+            "value": "CONTINENTAL TRANSM. (SMing)"
+        },
+        {
+            "key": "1470",
+            "value": "HENG MOTOR SVCS (Defu)"
+        },
+        {
+            "key": "1471",
+            "value": "HUA HONG PTE LTD (Yew Tee)"
+        },
+        {
+            "key": "1472",
+            "value": "INDECO ENGINEERS (Defu)"
+        },
+        {
+            "key": "1473",
+            "value": "LIAN MING ENGINEERING WORKS (Krj)"
+        },
+        {
+            "key": "1474",
+            "value": "LIM MOTOR SPRAY PAINTING (Defu)"
+        },
+        {
+            "key": "1475",
+            "value": "PROVIDENCE MOTOR PTE LTD (K/Bkt)"
+        },
+        {
+            "key": "1476",
+            "value": "SIN SHENG ENTERPRISE (Tuas)"
+        },
+        {
+            "key": "1478",
+            "value": "BH AUTO SERVICES PTE LTD (Kranji)"
+        },
+        {
+            "key": "1479",
+            "value": "CIVIC MOTOR SERVICE (Pioneer Rd)"
+        },
+        {
+            "key": "148",
+            "value": "COSMOPOLITAN ENG. (Loyang)"
+        },
+        {
+            "key": "1480",
+            "value": "GYRATE TECH ENGINEERING (Defu)"
+        },
+        {
+            "key": "1481",
+            "value": "HUA HONG PTE LTD (Wdls)"
+        },
+        {
+            "key": "1482",
+            "value": "JUN AUTOMOTIVE (K/Bkt)"
+        },
+        {
+            "key": "1483",
+            "value": "K S YEOW MOTOR SERVICES (Yishun)"
+        },
+        {
+            "key": "1484",
+            "value": "KH POWER (Tampines)"
+        },
+        {
+            "key": "1485",
+            "value": "LEE & TEH AUTOMOBILE SVC CTR (Jrg)"
+        },
+        {
+            "key": "1486",
+            "value": "MINERVA MOTOR (K/Bkt)"
+        },
+        {
+            "key": "1487",
+            "value": "PEOW MOTOR VEHICLE (K/Bkt)"
+        },
+        {
+            "key": "1488",
+            "value": "TAI HIN ENTERPRISE CO (K/Bkt)"
+        },
+        {
+            "key": "1489",
+            "value": "YEE SING MOTOR & CO (B/Merah)"
+        },
+        {
+            "key": "149",
+            "value": "CRUISE AUTOCARE (Ubi Ave)"
+        },
+        {
+            "key": "1495",
+            "value": "ASM AUTOMOTIVE SERVICES (Joo Koon)"
+        },
+        {
+            "key": "1496",
+            "value": "B & J PAINTING SERVICE (Tamp)"
+        },
+        {
+            "key": "1497",
+            "value": "BUKIT TIMAH AUTO AIR COND (Wlds)"
+        },
+        {
+            "key": "1498",
+            "value": "CALVIN AUTO SERVICES (Ubi)"
+        }
+    ],
+    "status": {
+        "code": "0",
+        "message": "Success"
+    }
+}

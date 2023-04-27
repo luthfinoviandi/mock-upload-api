@@ -1,0 +1,71 @@
+{
+    "homepage": "https://github.com/betajs/mock-file-server",
+    "license": "Apache-2.0",
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "https://github.com/betajs/mock-file-server/blob/master/LICENSE"
+        }
+    ],
+    "author": {
+        "name": "BetaJS",
+        "email": "info@betajs.com"
+    },
+    "bugs": {
+        "url": "https://github.com/betajs/mock-file-server/issues"
+    },
+    "name": "mock-file-server",
+    "description": "BetaJS Mock File Server for Testing",
+    "version": "0.1.17",
+    "contributors": [
+        "Oliver Friedmann",
+        "Paweł Mołek"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/betajs/mock-file-server.git"
+    },
+    "engines": {
+        "node": ""
+    },
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "",
+        "express": "",
+        "mock-file-server": "^0.1.17",
+        "multer": "",
+        "node-getopt": "",
+        "nodemailer": "^6.7.7",
+        "nodemon": "^2.0.20",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "betajs-compile": "~0.0.28",
+        "grunt": "",
+        "grunt-contrib-jshint": "",
+        "grunt-template": ""
+    },
+    "keywords": [
+        "gruntplugin"
+    ],
+    "scripts": {
+        "relink": "npm link betajs-compile",
+        "reinstall": "rm -f package-lock.json && rm -rf node_modules && npm i && npm run relink",
+        "start": "node node_modules/mock-file-server/server.js"
+    },
+    "meta": {
+        "blog": "https://blog.betajs.com",
+        "twitter": "https://twitter.com/thebetajs",
+        "badges": {
+            "codeclimate": true,
+            "travis": false,
+            "npm": true,
+            "gitter": true
+        },
+        "compatability": {
+            "NodeJS": "4.0 - Latest"
+        },
+        "installdoc": "docsrc/common/install.md",
+        "summarydoc": "docsrc/common/summary.md"
+    }
+}

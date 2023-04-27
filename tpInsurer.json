@@ -1,0 +1,288 @@
+{
+    "voList": [
+        {
+            "key": "1004",
+            "value": "DIRECT ASIA"
+        },
+        {
+            "key": "10401",
+            "value": "RHB INS (MSIA)"
+        },
+        {
+            "key": "10801",
+            "value": "AXA AFFIN GENERAL INSURANCE BHD (23820-W)"
+        },
+        {
+            "key": "10841",
+            "value": "ALLIANZ GLOBAL CORPORATE & SPECIALTY SE SINGAPORE BRANCH"
+        },
+        {
+            "key": "1123",
+            "value": "AVIVA LTD"
+        },
+        {
+            "key": "1172",
+            "value": "MSIG INSURANCE (M'sia)"
+        },
+        {
+            "key": "1173",
+            "value": "PROGRESSIVE INSURANCE (M'sia)"
+        },
+        {
+            "key": "1302",
+            "value": "ORIENTAL CAPITAL ASSURANCE (M'sia)"
+        },
+        {
+            "key": "1352",
+            "value": "BH INSURANCE (M'sia)"
+        },
+        {
+            "key": "1415",
+            "value": "BERJAYA-SOMPO INSURANCE (M'sia)"
+        },
+        {
+            "key": "1434",
+            "value": "M'SIAN MOTOR INSURANCE POOL (M'sia)"
+        },
+        {
+            "key": "1435",
+            "value": "LONPAC INSURANCE BHD (M'sia)"
+        },
+        {
+            "key": "1436",
+            "value": "TAKAFUL IKHLAS SDN BHD (M'sia)"
+        },
+        {
+            "key": "3010",
+            "value": "ETIQA TAKAFUL BHD (M'sia)"
+        },
+        {
+            "key": "5241",
+            "value": "MAA TAKAFUL BERHAD (M'sia)"
+        },
+        {
+            "key": "6346",
+            "value": "AIG MALAYSIA INSURANCE BERHAD"
+        },
+        {
+            "key": "6381",
+            "value": "VIJAYA SANDRAN (M'sia)"
+        },
+        {
+            "key": "8061",
+            "value": "TUNE INSURANCE"
+        },
+        {
+            "key": "877",
+            "value": "ACE INSURANCE"
+        },
+        {
+            "key": "878",
+            "value": "AHA"
+        },
+        {
+            "key": "879",
+            "value": "AHA (M'sia)"
+        },
+        {
+            "key": "880",
+            "value": "ALLIANZ"
+        },
+        {
+            "key": "881",
+            "value": "ALLIANZ (M'sia)"
+        },
+        {
+            "key": "882",
+            "value": "AMG INSURANCE (M'sia)"
+        },
+        {
+            "key": "883",
+            "value": "ASIA INSURANCE"
+        },
+        {
+            "key": "884",
+            "value": "AXA INSURANCE"
+        },
+        {
+            "key": "885",
+            "value": "AIG"
+        },
+        {
+            "key": "886",
+            "value": "CHARTIS (M'sia)"
+        },
+        {
+            "key": "887",
+            "value": "CHINA TAIPING"
+        },
+        {
+            "key": "888",
+            "value": "COSMIC INSURANCE"
+        },
+        {
+            "key": "889",
+            "value": "EQ INSURANCE"
+        },
+        {
+            "key": "890",
+            "value": "ETIQA INSURANCE"
+        },
+        {
+            "key": "891",
+            "value": "FEDERAL INSURANCE"
+        },
+        {
+            "key": "892",
+            "value": "FIRST CAPITAL"
+        },
+        {
+            "key": "893",
+            "value": "HONG LEONG ASS. (M'sia)"
+        },
+        {
+            "key": "894",
+            "value": "HSBC INSURANCE"
+        },
+        {
+            "key": "895",
+            "value": "INDIA INTERNATIONAL INS."
+        },
+        {
+            "key": "896",
+            "value": "ING GENERAL INSURANCE"
+        },
+        {
+            "key": "897",
+            "value": "JERNEH INSURANCE (M'sia)"
+        },
+        {
+            "key": "898",
+            "value": "KURNIA INSURANS (M'sia)"
+        },
+        {
+            "key": "899",
+            "value": "LIBERTY INSURANCE"
+        },
+        {
+            "key": "900",
+            "value": "LONPAC INSURANCE"
+        },
+        {
+            "key": "901",
+            "value": "MAA (M'sia)"
+        },
+        {
+            "key": "902",
+            "value": "MAYBAN GENERAL ASSURANCE"
+        },
+        {
+            "key": "903",
+            "value": "MITSUI SUMITOMO"
+        },
+        {
+            "key": "904",
+            "value": "MITSUI SUMITOMO (M'sia)"
+        },
+        {
+            "key": "905",
+            "value": "MSIG INSURANCE"
+        },
+        {
+            "key": "906",
+            "value": "MULTI-PURPOSE INS (M'sia)"
+        },
+        {
+            "key": "907",
+            "value": "NIPPONKOA"
+        },
+        {
+            "key": "908",
+            "value": "NTUC INCOME"
+        },
+        {
+            "key": "909",
+            "value": "OVERSEAS ASSURANCE (Msia)"
+        },
+        {
+            "key": "910",
+            "value": "OVERSEAS ASSURANCE CORP"
+        },
+        {
+            "key": "911",
+            "value": "OVERSEAS UNION INSURANCE"
+        },
+        {
+            "key": "912",
+            "value": "PACIFIC & ORIENT (M'sia)"
+        },
+        {
+            "key": "913",
+            "value": "PANGLOBAL INS (M'sia)"
+        },
+        {
+            "key": "914",
+            "value": "QBE INSURANCE"
+        },
+        {
+            "key": "915",
+            "value": "QBE MBF INSURANS (M'sia)"
+        },
+        {
+            "key": "916",
+            "value": "ROYAL & SUN"
+        },
+        {
+            "key": "917",
+            "value": "ROYAL & SUN (Msia)"
+        },
+        {
+            "key": "918",
+            "value": "SBS TRANSIT"
+        },
+        {
+            "key": "919",
+            "value": "SHC CAPITAL"
+        },
+        {
+            "key": "920",
+            "value": "SOMPO JAPAN"
+        },
+        {
+            "key": "921",
+            "value": "TAHAN INSURANCE (M'sia)"
+        },
+        {
+            "key": "922",
+            "value": "TENET INSURANCE"
+        },
+        {
+            "key": "923",
+            "value": "TOKIO MARINE"
+        },
+        {
+            "key": "924",
+            "value": "TOKIO MARINE (M'sia)"
+        },
+        {
+            "key": "925",
+            "value": "UNI ASIA (M'sia)"
+        },
+        {
+            "key": "926",
+            "value": "UNITED OVERSEAS INSURANCE"
+        },
+        {
+            "key": "927",
+            "value": "ZURICH INSURANCE"
+        },
+        {
+            "key": "928",
+            "value": "ZURICH INSURANCE (M'sia)"
+        }
+    ],
+    "status": {
+        "code": "0",
+        "message": "Success"
+    }
+}
