@@ -306,7 +306,7 @@ module.exports = {
 
 	
 	run: function (server, port) {
-		port = port || 5000;
+		port = port || 8080;
 		server.listen(port, function () {
 			console.log("Listening on", port);
 		});
