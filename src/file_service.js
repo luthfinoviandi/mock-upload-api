@@ -186,5 +186,15 @@ module.exports = function (fileSystem, options) {
 			return resultResponse;
 		},
 
+		createCompanyResult: function(){
+			console.log("create company result")
+			const fs = require('fs');
+			let data = fs.readFileSync('create_company_1.json');
+			let jsonData = JSON.parse(data);
+
+			return jsonData;
+
+		}
+
 	};
 };

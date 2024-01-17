@@ -259,6 +259,30 @@ module.exports = {
 			response.status(200).send(result)
 		});
 
+		express.post("/createCompany", function(request, response){
+			console.log("Create Company Payload", request.body);
+
+			var result = fileService.createCompanyResult();
+
+			console.log("Result", result)
+			response.status(200).send(result)
+		});
+
+		express.post("/getCompanyRiskScore", function(request, response){
+			console.log("Get Company Risk Score Payload", request.body);
+
+			var result = {
+					    "finalscore": 5-100,
+					    "riskrating": "Low ",
+					    "duediligence": "Standard",
+					    "payoutCountryofConcern":"yes" 
+					 }
+
+
+			console.log("Result", result)
+			response.status(200).send(result)
+		});
+
 		express.post("/auth/BAEM/accessToken", function(request, response){
 			console.log("Headers", request.headers);
 			console.log("Body", request.body);
@@ -283,8 +307,10 @@ module.exports = {
 				claimNo: "MT/34227880-001"
 			}
 
-			console.log("Result", result)
-			response.status(200).send(result)
+			setTimeout(() => {
+				console.log("Result", result)
+				response.status(200).send(result)
+			}, 70000)
 		});
 
 		express.post("/test-filename", upload.any(), function(request, response){
@@ -306,7 +332,7 @@ module.exports = {
 
 	
 	run: function (server, port) {
-		port = port || 5000;
+		port = port || 5001;
 		server.listen(port, function () {
 			console.log("Listening on", port);
 		});
