@@ -36,7 +36,7 @@
         "multer": "",
         "node-getopt": "",
         "nodemailer": "^6.7.7",
-        "nodemon": "^2.0.20",
+        "nodemon": "^2.0.22",
         "uuid": "^8.3.2"
     },
     "devDependencies": {

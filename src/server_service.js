@@ -283,6 +283,30 @@ module.exports = {
 			response.status(200).send(result)
 		});
 
+		express.post("/validateEid", function(request, response){
+			console.log("Validate EID request headers", request.headers);
+			console.log("Validate EID request", request.body);
+
+			var status = "ACTIVE";
+
+			if(request.body.emiratesIdNumber.startsWith("22")){
+				status = "EXPIRED";
+			} else if(request.body.emiratesIdNumber.startsWith("33")){
+				status = "CANCELED";
+			}
+
+			var result = {
+					    "emiratesIdNumber": request.body.emiratesIdNumber,
+					    "dateOfBirth": request.body.dateOfBirth,
+					    "currentNationality": request.body.currentNationality,
+					    "statusEmiratesId": status 
+					 }
+
+
+			console.log("Result", result)
+			response.status(200).send(result)
+		});
+
 		express.post("/auth/BAEM/accessToken", function(request, response){
 			console.log("Headers", request.headers);
 			console.log("Body", request.body);
