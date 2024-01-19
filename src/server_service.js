@@ -261,25 +261,30 @@ module.exports = {
 
 		express.post("/createCompany", function(request, response){
 			console.log("Create Company Payload", request.body);
-
-			if(request.body.name.toLowerCase() == 'anas'){
-				var result = fileService.createCompanyResult();
+			var result = fileService.createCompanyResult();
 
 				console.log("Result", result)
 				response.status(200).send(result)
-			} else {
-				// var result = { 
-				// 				"errors": [ 
-				// 				    { 
-				// 				       "code": "1016", 
-				// 				       "title": "Data update failed", 
-				// 				       "detail": "Detailed Error", 
-				// 				    } 
-				// 				  ]
-				// 				}
 
-				response.status(500).send(null);
-			}
+				
+			// if(request.body.name.toLowerCase() == 'anas'){
+			// 	var result = fileService.createCompanyResult();
+
+			// 	console.log("Result", result)
+			// 	response.status(200).send(result)
+			// } else {
+			// 	// var result = { 
+			// 	// 				"errors": [ 
+			// 	// 				    { 
+			// 	// 				       "code": "1016", 
+			// 	// 				       "title": "Data update failed", 
+			// 	// 				       "detail": "Detailed Error", 
+			// 	// 				    } 
+			// 	// 				  ]
+			// 	// 				}
+
+			// 	response.status(404).send();
+			// }
 		});
 
 		express.post("/getCompanyRiskScore", function(request, response){
