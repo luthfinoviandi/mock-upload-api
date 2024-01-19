@@ -268,17 +268,17 @@ module.exports = {
 				console.log("Result", result)
 				response.status(200).send(result)
 			} else {
-				var result = { 
-								"errors": [ 
-								    { 
-								       "code": "1016", 
-								       "title": "Data update failed", 
-								       "detail": "Detailed Error", 
-								    } 
-								  ]
-								}
+				// var result = { 
+				// 				"errors": [ 
+				// 				    { 
+				// 				       "code": "1016", 
+				// 				       "title": "Data update failed", 
+				// 				       "detail": "Detailed Error", 
+				// 				    } 
+				// 				  ]
+				// 				}
 
-				response.status(500).send(result);
+				response.status(500).send(null);
 			}
 		});
 
