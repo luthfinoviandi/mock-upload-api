@@ -262,10 +262,24 @@ module.exports = {
 		express.post("/createCompany", function(request, response){
 			console.log("Create Company Payload", request.body);
 
-			var result = fileService.createCompanyResult();
+			if(request.body.name.toLowerCase() == 'anas'){
+				var result = fileService.createCompanyResult();
 
-			console.log("Result", result)
-			response.status(200).send(result)
+				console.log("Result", result)
+				response.status(200).send(result)
+			} else {
+				var result = { 
+								"errors": [ 
+								    { 
+								       "code": "1016", 
+								       "title": "Data update failed", 
+								       "detail": "Detailed Error", 
+								    } 
+								  ]
+								}
+
+				response.status(500).send(result);
+			}
 		});
 
 		express.post("/getCompanyRiskScore", function(request, response){
@@ -283,7 +297,7 @@ module.exports = {
 			response.status(200).send(result)
 		});
 
-		express.post("/validateEid", function(request, response){
+		express.post("/eid-verification", function(request, response){
 			console.log("Validate EID request headers", request.headers);
 			console.log("Validate EID request", request.body);
 
