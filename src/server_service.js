@@ -286,9 +286,12 @@ module.exports = {
 			console.log("Get Company Risk Score Payload", request.body);
 
 			var result = {
-					    "finalscore": 5-100,
-					    "riskrating": "Low ",
-					    "duediligence": "Standard",
+						"companyUUID": request.body.companyUUID,
+					    "risk": {
+					    	"finalscore": 5-100,
+					    	"riskrating": "Low ",
+					    	"duediligence": "Standard",
+					    },
 					    "payoutCountryofConcern":"yes" 
 					 }
 
