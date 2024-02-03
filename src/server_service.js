@@ -282,7 +282,7 @@ module.exports = {
 			}
 		});
 
-		express.post("/getCompanyRiskScore", function(request, response){
+		express.post("/getEmployerRR", function(request, response){
 			console.log("Get Company Risk Score Payload", request.body);
 
 			var result = {
