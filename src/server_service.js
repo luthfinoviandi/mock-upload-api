@@ -262,7 +262,7 @@ module.exports = {
 		express.post("/createCompany", function(request, response){
 			console.log("Create Company Payload", request.body);
 				
-			if(request.body.name.toLowerCase() == 'anas'){
+			if(request.body.CompanyName.toLowerCase() == 'anas'){
 				var result = fileService.createCompanyResult();
 
 				console.log("Result", result)
