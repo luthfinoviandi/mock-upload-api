@@ -269,6 +269,7 @@ module.exports = {
 				response.status(200).send(result)
 			} else {
 				var result = { 
+								"type": ""
 								"errors": [ 
 								    { 
 								       "code": "1016", 
