@@ -307,7 +307,7 @@ module.exports = {
 						"employeeId": "123",
 					    "risk_rating": {
 					    	"finalscore": "5-100",
-					    	"riskrating": "High ",
+					    	"riskrating": "Low ",
 					    	"duediligence": "Standard",
 					    },
 					    "risk_score": {
@@ -335,7 +335,7 @@ module.exports = {
 			var result = {
 					    "risk_rating": {
 					    	"finalscore": "5-100",
-					    	"riskrating": "High ",
+					    	"riskrating": "Low ",
 					    	"duediligence": "Standard",
 					    },
 					    "payoutCountryofConcern":"yes" 
