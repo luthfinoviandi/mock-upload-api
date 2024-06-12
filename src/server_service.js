@@ -310,7 +310,7 @@ module.exports = {
 					    	"riskrating": "High ",
 					    	"duediligence": "Standard",
 					    },
-					    "risk_rating": {
+					    "risk_score": {
 					    	"schemeid": "1",
 					    	"transactionAmount": "200000",
 					    	"nationality": "UAE",
