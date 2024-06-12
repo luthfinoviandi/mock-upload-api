@@ -304,7 +304,7 @@ module.exports = {
 			console.log("Get Employee Risk Score Payload", request.body);
 
 			var result = {
-						"employeeId": "123,
+						"employeeId": "123",
 					    "risk_rating": {
 					    	"finalscore": "5-100",
 					    	"riskrating": "High ",
