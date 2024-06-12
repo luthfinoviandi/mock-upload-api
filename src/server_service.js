@@ -320,7 +320,7 @@ module.exports = {
 					    	"IsAdverseMedia": "No",
 					    	"bankswiftcode": "123",
 					    	"bankcountry": "UAE",
-					    	"countryCode": "AE",
+					    	"countrycode": "AE",
 					    	"payoutCountryofConcern": "No"
 					    },
 					 }
@@ -342,7 +342,8 @@ module.exports = {
 					    	"IsPEP": "Yes",
 					    	"IsAdverseMedia": "Yes",
 					    	"bankswiftcode": "123",
-					    	"bankcountry": "UA",
+					    	"bankcountry": "UAE",
+					    	"countrycode": "UA",
 					    	"payoutCountryofConcern": "Yes"
 					    },
 					 }
