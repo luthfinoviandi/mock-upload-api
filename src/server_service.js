@@ -299,9 +299,55 @@ module.exports = {
 			console.log("Result", result)
 			response.status(200).send(result)
 		});
+		
+		express.post("/getEmployeeRR", function(request, response){
+			console.log("Get Employee Risk Score Payload", request.body);
+
+			var result = {
+						"employeeId": "123,
+					    "risk_rating": {
+					    	"finalscore": "5-100",
+					    	"riskrating": "High ",
+					    	"duediligence": "Standard",
+					    },
+					    "risk_rating": {
+					    	"schemeId": "1",
+					    	"transactionAmount": "200000",
+					    	"nationality": "UAE",
+					    	"countryOfResidence": "UAE",
+					    	"IsCountryOfconcern": "Yes",
+					    	"IsPEP": "Yes",
+					    	"IsAdverseMedia": "Yes",
+					    	"bankswiftcode": "123",
+					    	"bankcountry": "UAE",
+					    	"payoutCountryofConcern": "Yes"
+					    },
+					 }
+
+
+			console.log("Result", result)
+			response.status(200).send(result)
+		});
+
+		express.post("/getThirdPartyRR", function(request, response){
+			console.log("Get 3PP Risk Score Payload", request.body);
+
+			var result = {
+					    "risk_rating": {
+					    	"finalscore": "5-100",
+					    	"riskrating": "High ",
+					    	"duediligence": "Standard",
+					    },
+					    "payoutCountryofConcern":"yes" 
+					 }
+
+
+			console.log("Result", result)
+			response.status(200).send(result)
+		});
 
 		express.post("/eid-verification", function(request, response){
-			console.log("Validate EID request headers", request.headers);
+			console.log("Validate EID header", request.headers);
 			console.log("Validate EID request", request.body);
 
 			var status = "ACTIVE";
