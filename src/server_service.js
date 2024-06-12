@@ -311,7 +311,7 @@ module.exports = {
 					    	"duediligence": "Standard",
 					    },
 					    "risk_rating": {
-					    	"schemeId": "1",
+					    	"schemeid": "1",
 					    	"transactionAmount": "200000",
 					    	"nationality": "UAE",
 					    	"countryOfResidence": "UAE",
