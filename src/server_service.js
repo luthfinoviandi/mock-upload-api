@@ -307,8 +307,31 @@ module.exports = {
 						"employeeId": "123",
 					    "risk_rating": {
 					    	"finalscore": "5-100",
-					    	"riskrating": "Low ",
+					    	"riskrating": "Low",
 					    	"duediligence": "Standard",
+					    },
+					    "risk_score": {
+					    	"schemeid": "1",
+					    	"transactionAmount": "200000",
+					    	"nationality": "UAE",
+					    	"countryOfResidence": "UAE",
+					    	"IsCountryOfconcern": "No",
+					    	"IsPEP": "No",
+					    	"IsAdverseMedia": "No",
+					    	"bankswiftcode": "123",
+					    	"bankcountry": "UAE",
+					    	"countryCode": "AE",
+					    	"payoutCountryofConcern": "No"
+					    },
+					 }
+
+			if(request.body.schemeId == "1"){
+				result = {
+						"employeeId": "123",
+					    "risk_rating": {
+					    	"finalscore": "5-100",
+					    	"riskrating": "High",
+					    	"duediligence": "Enhanced",
 					    },
 					    "risk_score": {
 					    	"schemeid": "1",
@@ -319,10 +342,11 @@ module.exports = {
 					    	"IsPEP": "Yes",
 					    	"IsAdverseMedia": "Yes",
 					    	"bankswiftcode": "123",
-					    	"bankcountry": "UAE",
+					    	"bankcountry": "UA",
 					    	"payoutCountryofConcern": "Yes"
 					    },
 					 }
+			}
 
 
 			console.log("Result", result)
@@ -335,11 +359,22 @@ module.exports = {
 			var result = {
 					    "risk_rating": {
 					    	"finalscore": "5-100",
-					    	"riskrating": "Low ",
+					    	"riskrating": "Low",
 					    	"duediligence": "Standard",
 					    },
 					    "payoutCountryofConcern":"yes" 
 					 }
+
+			if(request.body.schemeId == '1'){
+				result = {
+					    "risk_rating": {
+					    	"finalscore": "5-100",
+					    	"riskrating": "High",
+					    	"duediligence": "Enhanced",
+					    },
+					    "payoutCountryofConcern":"yes" 
+					 }
+			}
 
 
 			console.log("Result", result)
